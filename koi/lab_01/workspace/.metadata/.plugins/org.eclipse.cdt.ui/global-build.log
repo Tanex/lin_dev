@@ -1,0 +1,2153 @@
+13:55:42 **** Build of configuration Debug for project debug ****
+make all 
+Building file: ../a.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a.d" -MT"a.d" -o "a.o" "../a.cpp"
+../a.cpp: In function ‘int addering(int*, std::string)’:
+../a.cpp:21:16: warning: unused variable ‘appendices’ [-Wunused-variable]
+   std::string* appendices = allt(&antingen, apa);
+                ^
+../a.cpp:23:8: warning: unused variable ‘arbetsdag’ [-Wunused-variable]
+   int* arbetsdag = ande(antingen, arabiska);
+        ^
+../a.cpp:25:8: warning: unused variable ‘arkivering’ [-Wunused-variable]
+   int* arkivering = allmoge(antingen, arena);
+        ^
+../a.cpp:27:16: warning: unused variable ‘ask’ [-Wunused-variable]
+   std::string* ask = anordning(&antingen, arm);
+                ^
+../a.cpp:29:7: warning: unused variable ‘att’ [-Wunused-variable]
+   int att = annanstans(&antingen, assemblering);
+       ^
+../a.cpp:31:16: warning: unused variable ‘automobil’ [-Wunused-variable]
+   std::string* automobil = anordning(&antingen, automatisering);
+                ^
+../a.cpp: In function ‘std::string* adressbuss(int*, std::string)’:
+../a.cpp:43:8: warning: unused variable ‘avlyssning’ [-Wunused-variable]
+   int* avlyssning = anno(avhandling, avkomma);
+        ^
+../a.cpp:47:16: warning: unused variable ‘avsyning’ [-Wunused-variable]
+   std::string* avsyning = allt(&avhandling, avstavning);
+                ^
+../a.cpp:51:16: warning: unused variable ‘b’ [-Wunused-variable]
+   std::string* b = alltsammans(&avhandling, ayatolla);
+                ^
+../a.cpp: In function ‘int* adressering(int, std::string*)’:
+../a.cpp:65:7: warning: unused variable ‘balansering’ [-Wunused-variable]
+   int balansering = aldrig(&bakre, baksida);
+       ^
+../a.cpp:67:7: warning: unused variable ‘ballerina’ [-Wunused-variable]
+   int ballerina = andel(&bakre, balk);
+       ^
+../a.cpp:73:8: warning: unused variable ‘bas’ [-Wunused-variable]
+   int* bas = ana(bakre, barnvagn);
+        ^
+../a.cpp:75:7: warning: unused variable ‘basilika’ [-Wunused-variable]
+   int basilika = allesammans(&bakre, basic);
+       ^
+../a.cpp: In function ‘int* advent(int, std::string*)’:
+../a.cpp:87:16: warning: unused variable ‘belysning’ [-Wunused-variable]
+   std::string* belysning = allehanda(&befolkning, belastning);
+                ^
+../a.cpp:91:8: warning: unused variable ‘besiktning’ [-Wunused-variable]
+   int* besiktning = anskaffning(befolkning, bergstopp);
+        ^
+../a.cpp:93:8: warning: unused variable ‘beskrivning’ [-Wunused-variable]
+   int* beskrivning = anslagstavla(befolkning, beskickning);
+        ^
+../a.cpp:95:8: warning: unused variable ‘bestraffning’ [-Wunused-variable]
+   int* bestraffning = alltmera(befolkning, besparing);
+        ^
+../a.cpp:97:7: warning: unused variable ‘beteckning’ [-Wunused-variable]
+   int beteckning = anknytning(&befolkning, betalning);
+       ^
+../a.cpp:99:7: warning: unused variable ‘biff’ [-Wunused-variable]
+   int biff = allting(&befolkning, bidde);
+       ^
+../a.cpp:101:8: warning: unused variable ‘bilaga’ [-Wunused-variable]
+   int* bilaga = anslagstavla(befolkning, bila);
+        ^
+../a.cpp:103:8: warning: unused variable ‘bilruta’ [-Wunused-variable]
+   int* bilruta = anspelning(befolkning, bildstorlek);
+        ^
+../a.cpp: In function ‘int* aftonsol(int, std::string*)’:
+../a.cpp:117:7: warning: unused variable ‘blevo’ [-Wunused-variable]
+   int blevo = allteftersom(&biverkning, blaska);
+       ^
+../a.cpp:119:7: warning: unused variable ‘blinkning’ [-Wunused-variable]
+   int blinkning = aldrig(&biverkning, blick);
+       ^
+../a.cpp:121:16: warning: unused variable ‘bliva’ [-Wunused-variable]
+   std::string* bliva = alfa(&biverkning, bliv);
+                ^
+../a.cpp:125:8: warning: unused variable ‘blomma’ [-Wunused-variable]
+   int* blomma = algebra(biverkning, blom);
+        ^
+../a.cpp: In function ‘int aha(int*, std::string)’:
+../a.cpp:141:8: warning: unused variable ‘boll’ [-Wunused-variable]
+   int* boll = anpassning(bod, bokstavsordning);
+        ^
+../a.cpp:143:8: warning: unused variable ‘borg’ [-Wunused-variable]
+   int* borg = anhopning(bod, bordslampa);
+        ^
+../a.cpp:145:7: warning: unused variable ‘borta’ [-Wunused-variable]
+   int borta = aldrig(&bod, bort);
+       ^
+../a.cpp:147:16: warning: unused variable ‘bortom’ [-Wunused-variable]
+   std::string* bortom = adressbuss(&bod, bortfara);
+                ^
+../a.cpp: In function ‘int* aj(int, std::string*)’:
+../a.cpp:159:8: warning: unused variable ‘bricka’ [-Wunused-variable]
+   int* bricka = ande(brasklapp, bredvid);
+        ^
+../a.cpp:163:8: warning: unused variable ‘brunn’ [-Wunused-variable]
+   int* brunn = ande(brasklapp, bruksanvisning);
+        ^
+../a.cpp:165:16: warning: unused variable ‘buckla’ [-Wunused-variable]
+   std::string* buckla = anordning(&brasklapp, brytning);
+                ^
+../a.cpp: In function ‘std::string al(int, std::string*)’:
+../a.cpp:179:8: warning: unused variable ‘burk’ [-Wunused-variable]
+   int* burk = ande(bums, bur);
+        ^
+../a.cpp:181:7: warning: unused variable ‘bygling’ [-Wunused-variable]
+   int bygling = allihop(&bums, byggsten);
+       ^
+../a.cpp:183:8: warning: unused variable ‘byxa’ [-Wunused-variable]
+   int* byxa = allafall(bums, bytta);
+        ^
+../a.cpp:185:8: warning: unused variable ‘centraldatorsida’ [-Wunused-variable]
+   int* centraldatorsida = ana(bums, ca);
+        ^
+../a.cpp:187:7: warning: unused variable ‘cirka’ [-Wunused-variable]
+   int cirka = alltihopa(&bums, charisma);
+       ^
+../a.cpp:189:8: warning: unused variable ‘cornflakes’ [-Wunused-variable]
+   int* cornflakes = anno(bums, copyright);
+        ^
+../a.cpp:191:8: warning: unused variable ‘cursorpositionering’ [-Wunused-variable]
+   int* cursorpositionering = advent(bums, curling);
+        ^
+../a.cpp:193:7: warning: unused variable ‘dag’ [-Wunused-variable]
+   int dag = allting(&bums, d);
+       ^
+../a.cpp: In function ‘int aldrig(int*, std::string)’:
+../a.cpp:207:8: warning: unused variable ‘dansk’ [-Wunused-variable]
+   int* dansk = alls(dalkarl, damm);
+        ^
+../a.cpp:209:8: warning: unused variable ‘databuss’ [-Wunused-variable]
+   int* databuss = alls(dalkarl, databehandling);
+        ^
+../a.cpp:211:16: warning: unused variable ‘datalagring’ [-Wunused-variable]
+   std::string* datalagring = annonsering(&dalkarl, datalag);
+                ^
+../a.cpp:213:8: warning: unused variable ‘datorisering’ [-Wunused-variable]
+   int* datorisering = alls(dalkarl, datering);
+        ^
+../a.cpp:215:16: warning: unused variable ‘decentralisering’ [-Wunused-variable]
+   std::string* decentralisering = allah(&dalkarl, debitering);
+                ^
+../a.cpp:217:16: warning: unused variable ‘del’ [-Wunused-variable]
+   std::string* del = adressbuss(&dalkarl, dej);
+                ^
+../a.cpp:223:7: warning: unused variable ‘dessemellan’ [-Wunused-variable]
+   int dessemellan = allihop(&dalkarl, dess);
+       ^
+../a.cpp: In function ‘std::string* alfa(int*, std::string)’:
+../a.cpp:235:7: warning: unused variable ‘digitalisering’ [-Wunused-variable]
+   int digitalisering = annanstans(&dia, dig);
+       ^
+../a.cpp:237:7: warning: unused variable ‘dimma’ [-Wunused-variable]
+   int dimma = annanstans(&dia, dimensionering);
+       ^
+../a.cpp:239:16: warning: unused variable ‘direktadressering’ [-Wunused-variable]
+   std::string* direktadressering = alfa(&dia, dina);
+                ^
+../a.cpp:241:8: warning: unused variable ‘diskriminering’ [-Wunused-variable]
+   int* diskriminering = adressering(dia, disk);
+        ^
+../a.cpp:243:7: warning: unused variable ‘dito’ [-Wunused-variable]
+   int dito = anslutning(&dia, dit);
+       ^
+../a.cpp:245:8: warning: unused variable ‘diva’ [-Wunused-variable]
+   int* diva = anspelning(dia, dittills);
+        ^
+../a.cpp:247:16: warning: unused variable ‘docka’ [-Wunused-variable]
+   std::string* docka = anordning(&dia, dock);
+                ^
+../a.cpp:249:16: warning: unused variable ‘dom’ [-Wunused-variable]
+   std::string* dom = ampere(&dia, dolk);
+                ^
+../a.cpp: In function ‘int* algebra(int, std::string*)’:
+../a.cpp:261:8: warning: unused variable ‘dryckjom’ [-Wunused-variable]
+   int* dryckjom = anpassning(drivning, druva);
+        ^
+../a.cpp:263:7: warning: unused variable ‘dubbelmening’ [-Wunused-variable]
+   int dubbelmening = allteftersom(&drivning, dubbel);
+       ^
+../a.cpp:265:8: warning: unused variable ‘dubblering’ [-Wunused-variable]
+   int* dubblering = alltmera(drivning, dubbelt);
+        ^
+../a.cpp:267:7: warning: unused variable ‘duns’ [-Wunused-variable]
+   int duns = annanstans(&drivning, dumsnut);
+       ^
+../a.cpp:269:8: warning: unused variable ‘duva’ [-Wunused-variable]
+   int* duva = ann(drivning, dusch);
+        ^
+../a.cpp:271:8: warning: unused variable ‘dyrgrip’ [-Wunused-variable]
+   int* dyrgrip = allafall(drivning, dynga);
+        ^
+../a.cpp:273:7: warning: unused variable ‘effektivisering’ [-Wunused-variable]
+   int effektivisering = allesammans(&drivning, eder);
+       ^
+../a.cpp: In function ‘std::string alias(int, std::string*)’:
+../a.cpp:285:8: warning: unused variable ‘ej’ [-Wunused-variable]
+   int* ej = alltmer(egendom, ehuru);
+        ^
+../a.cpp:287:16: warning: unused variable ‘eljest’ [-Wunused-variable]
+   std::string* eljest = alfa(&egendom, eld);
+                ^
+../a.cpp:291:8: warning: unused variable ‘emot’ [-Wunused-variable]
+   int* emot = algebra(egendom, emellertid);
+        ^
+../a.cpp: In function ‘std::string alika(int, std::string*)’:
+../a.cpp:305:7: warning: unused variable ‘era’ [-Wunused-variable]
+   int era = alltnog(&engelska, er);
+       ^
+../a.cpp:307:7: warning: unused variable ‘erinran’ [-Wunused-variable]
+   int erinran = allesammans(&engelska, erforderlig);
+       ^
+../a.cpp:309:8: warning: unused variable ‘etc’ [-Wunused-variable]
+   int* etc = allokering(engelska, estimering);
+        ^
+../a.cpp:311:8: warning: unused variable ‘etta’ [-Wunused-variable]
+   int* etta = anhopning(engelska, etsning);
+        ^
+../a.cpp:313:8: warning: unused variable ‘exekvering’ [-Wunused-variable]
+   int* exekvering = anpassning(engelska, ev);
+        ^
+../a.cpp:315:16: warning: unused variable ‘f’ [-Wunused-variable]
+   std::string* f = alfa(&engelska, extra);
+                ^
+../a.cpp:317:7: warning: unused variable ‘facto’ [-Wunused-variable]
+   int facto = anslutning(&engelska, fackskola);
+       ^
+Finished building: ../a.cpp
+ 
+Building file: ../abc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"abc.d" -MT"abc.d" -o "abc.o" "../abc.cpp"
+../abc.cpp: In function ‘int* allafall(int, std::string*)’:
+../abc.cpp:21:7: warning: unused variable ‘fattning’ [-Wunused-variable]
+   int fattning = aning(&fasta, fatt);
+       ^
+../abc.cpp:23:7: warning: unused variable ‘feldetektering’ [-Wunused-variable]
+   int feldetektering = anslutningspropp(&fasta, feedback);
+       ^
+../abc.cpp:25:7: warning: unused variable ‘felstavning’ [-Wunused-variable]
+   int felstavning = alltnog(&fasta, felskrivning);
+       ^
+../abc.cpp:29:7: warning: unused variable ‘ficka’ [-Wunused-variable]
+   int ficka = annars(&fasta, fetstil);
+       ^
+../abc.cpp: In function ‘std::string* allah(int*, std::string)’:
+../abc.cpp:41:7: warning: unused variable ‘finland’ [-Wunused-variable]
+   int finland = annanstans(&filtrering, finka);
+       ^
+../abc.cpp:43:7: warning: unused variable ‘finns’ [-Wunused-variable]
+   int finns = aning(&filtrering, finnes);
+       ^
+../abc.cpp:49:16: warning: unused variable ‘flik’ [-Wunused-variable]
+   std::string* flik = anledning(&filtrering, flicka);
+                ^
+../abc.cpp:53:16: warning: unused variable ‘flotta’ [-Wunused-variable]
+   std::string* flotta = anordning(&filtrering, flora);
+                ^
+../abc.cpp: In function ‘int* alldeles(int, std::string*)’:
+../abc.cpp:65:8: warning: unused variable ‘formattering’ [-Wunused-variable]
+   int* formattering = anno(fordring, formalisering);
+        ^
+../abc.cpp:67:8: warning: unused variable ‘formulering’ [-Wunused-variable]
+   int* formulering = allokering(fordring, formligen);
+        ^
+../abc.cpp:69:8: warning: unused variable ‘fortbildning’ [-Wunused-variable]
+   int* fortbildning = aftonsol(fordring, forskning);
+        ^
+../abc.cpp:71:16: warning: unused variable ‘forts’ [-Wunused-variable]
+   std::string* forts = alltihop(&fordring, fortplantning);
+                ^
+../abc.cpp:73:7: warning: unused variable ‘fotogenlampa’ [-Wunused-variable]
+   int fotogenlampa = annanstans(&fordring, fotboll);
+       ^
+../abc.cpp:75:7: warning: unused variable ‘frack’ [-Wunused-variable]
+   int frack = anslutningspropp(&fordring, fotostatkopiering);
+       ^
+../abc.cpp: In function ‘std::string* allehanda(int*, std::string)’:
+../abc.cpp:89:16: warning: unused variable ‘funktionsbeskrivning’ [-Wunused-variable]
+   std::string* funktionsbeskrivning = alltsammans(&fredag, fundering);
+                ^
+../abc.cpp:93:7: warning: unused variable ‘fyr’ [-Wunused-variable]
+   int fyr = allena(&fredag, fyllning);
+       ^
+../abc.cpp:95:16: warning: unused variable ‘gam’ [-Wunused-variable]
+   std::string* gam = allehanda(&fredag, g);
+                ^
+../abc.cpp:97:16: warning: unused variable ‘gammalt’ [-Wunused-variable]
+   std::string* gammalt = anordning(&fredag, gammal);
+                ^
+../abc.cpp: In function ‘int allena(int*, std::string)’:
+../abc.cpp:109:8: warning: unused variable ‘gerilla’ [-Wunused-variable]
+   int* gerilla = allafall(generalisering, gentemot);
+        ^
+../abc.cpp:111:8: warning: unused variable ‘giv’ [-Wunused-variable]
+   int* giv = alltmer(generalisering, gissningsvis);
+        ^
+../abc.cpp:113:8: warning: unused variable ‘glansis’ [-Wunused-variable]
+   int* glansis = allafall(generalisering, glada);
+        ^
+../abc.cpp:115:7: warning: unused variable ‘glest’ [-Wunused-variable]
+   int glest = allena(&generalisering, glass);
+       ^
+../abc.cpp:117:16: warning: unused variable ‘glipa’ [-Wunused-variable]
+   std::string* glipa = alltihop(&generalisering, glimt);
+                ^
+../abc.cpp:119:8: warning: unused variable ‘gnutta’ [-Wunused-variable]
+   int* gnutta = anno(generalisering, gnista);
+        ^
+../abc.cpp:123:8: warning: unused variable ‘golfbana’ [-Wunused-variable]
+   int* golfbana = allafall(generalisering, gol);
+        ^
+../abc.cpp:125:16: warning: unused variable ‘golvlampa’ [-Wunused-variable]
+   std::string* golvlampa = alfa(&generalisering, golfklubba);
+                ^
+../abc.cpp: In function ‘int allesammans(int*, std::string)’:
+../abc.cpp:139:16: warning: unused variable ‘grejor’ [-Wunused-variable]
+   std::string* grejor = alfa(&gran, grav);
+                ^
+../abc.cpp:141:8: warning: unused variable ‘grevinna’ [-Wunused-variable]
+   int* grevinna = anhopning(gran, gren);
+        ^
+../abc.cpp:143:7: warning: unused variable ‘gris’ [-Wunused-variable]
+   int gris = aha(&gran, grind);
+       ^
+../abc.cpp:145:8: warning: unused variable ‘grogg’ [-Wunused-variable]
+   int* grogg = alltmera(gran, grodd);
+        ^
+../abc.cpp: In function ‘int allihop(int*, std::string)’:
+../abc.cpp:159:8: warning: unused variable ‘grytbit’ [-Wunused-variable]
+   int* grytbit = alls(grundtank, gryta);
+        ^
+../abc.cpp:161:16: warning: unused variable ‘gudinna’ [-Wunused-variable]
+   std::string* gudinna = alfa(&grundtank, gudi);
+                ^
+../abc.cpp:163:8: warning: unused variable ‘gurka’ [-Wunused-variable]
+   int* gurka = algebra(grundtank, gumma);
+        ^
+../abc.cpp: In function ‘int* allmoge(int, std::string*)’:
+../abc.cpp:177:8: warning: unused variable ‘halva’ [-Wunused-variable]
+   int* halva = ann(hall, halshuggning);
+        ^
+../abc.cpp:179:7: warning: unused variable ‘halvkugg’ [-Wunused-variable]
+   int halvkugg = allihop(&hall, halvering);
+       ^
+../abc.cpp:181:8: warning: unused variable ‘halvtannat’ [-Wunused-variable]
+   int* halvtannat = aftonsol(hall, halvt);
+        ^
+../abc.cpp:183:8: warning: unused variable ‘handha’ [-Wunused-variable]
+   int* handha = aj(hall, handflata);
+        ^
+../abc.cpp:187:8: warning: unused variable ‘har’ [-Wunused-variable]
+   int* har = allmoge(hall, hantering);
+        ^
+../abc.cpp: In function ‘int* allokering(int, std::string*)’:
+../abc.cpp:199:16: warning: unused variable ‘hejsan’ [-Wunused-variable]
+   std::string* hejsan = ampere(&hed, hej);
+                ^
+../abc.cpp:201:7: warning: unused variable ‘hellre’ [-Wunused-variable]
+   int hellre = andel(&hed, heller);
+       ^
+../abc.cpp:203:7: warning: unused variable ‘hemma’ [-Wunused-variable]
+   int hemma = allteftersom(&hed, hem);
+       ^
+../abc.cpp:205:7: warning: unused variable ‘hertig’ [-Wunused-variable]
+   int hertig = annars(&hed, herde);
+       ^
+../abc.cpp:207:7: warning: unused variable ‘hifi’ [-Wunused-variable]
+   int hifi = alltnog(&hed, hexkodning);
+       ^
+../abc.cpp: In function ‘int* allra(int, std::string*)’:
+../abc.cpp:221:8: warning: unused variable ‘hop’ [-Wunused-variable]
+   int* hop = alltmera(hittillsvarande, honung);
+        ^
+../abc.cpp:223:8: warning: unused variable ‘hoppsan’ [-Wunused-variable]
+   int* hoppsan = ande(hittillsvarande, hoppning);
+        ^
+../abc.cpp:225:8: warning: unused variable ‘hos’ [-Wunused-variable]
+   int* hos = allmoge(hittillsvarande, hoptagning);
+        ^
+../abc.cpp:227:8: warning: unused variable ‘huller’ [-Wunused-variable]
+   int* huller = ann(hittillsvarande, hud);
+        ^
+Finished building: ../abc.cpp
+ 
+Building file: ../abscissa.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"abscissa.d" -MT"abscissa.d" -o "abscissa.o" "../abscissa.cpp"
+../abscissa.cpp: In function ‘int* alls(int, std::string*)’:
+../abscissa.cpp:21:8: warning: unused variable ‘husvagn’ [-Wunused-variable]
+   int* husvagn = allokering(hurra, huruvida);
+        ^
+../abscissa.cpp:23:8: warning: unused variable ‘huvuddel’ [-Wunused-variable]
+   int* huvuddel = adressering(hurra, huvudavdelning);
+        ^
+../abscissa.cpp:25:8: warning: unused variable ‘hydda’ [-Wunused-variable]
+   int* hydda = allokering(hurra, hux);
+        ^
+../abscissa.cpp:27:8: warning: unused variable ‘hylla’ [-Wunused-variable]
+   int* hylla = allra(hurra, hyfsning);
+        ^
+../abscissa.cpp:31:7: warning: unused variable ‘ibland’ [-Wunused-variable]
+   int ibland = annars(&hurra, iallafall);
+       ^
+../abscissa.cpp: In function ‘std::string* allt(int*, std::string)’:
+../abscissa.cpp:43:7: warning: unused variable ‘ihop’ [-Wunused-variable]
+   int ihop = aning(&identifiering, igenom);
+       ^
+../abscissa.cpp:45:8: warning: unused variable ‘illa’ [-Wunused-variable]
+   int* illa = ann(identifiering, ikapp);
+        ^
+../abscissa.cpp:47:8: warning: unused variable ‘imperfekt’ [-Wunused-variable]
+   int* imperfekt = advent(identifiering, ilska);
+        ^
+../abscissa.cpp:49:8: warning: unused variable ‘inblandning’ [-Wunused-variable]
+   int* inblandning = aftonsol(identifiering, inalles);
+        ^
+../abscissa.cpp:53:7: warning: unused variable ‘indexering’ [-Wunused-variable]
+   int indexering = aldrig(&identifiering, indentering);
+       ^
+../abscissa.cpp:55:16: warning: unused variable ‘inflygning’ [-Wunused-variable]
+   std::string* inflygning = alm(&identifiering, infix);
+                ^
+../abscissa.cpp:57:7: warning: unused variable ‘ingalunda’ [-Wunused-variable]
+   int ingalunda = andel(&identifiering, ing);
+       ^
+../abscissa.cpp:59:8: warning: unused variable ‘ingenting’ [-Wunused-variable]
+   int* ingenting = allmoge(identifiering, ingenstans);
+        ^
+../abscissa.cpp: In function ‘int allteftersom(int*, std::string)’:
+../abscissa.cpp:71:16: warning: unused variable ‘inlandsis’ [-Wunused-variable]
+   std::string* inlandsis = anledning(&inkommande, inkoppling);
+                ^
+../abscissa.cpp:73:7: warning: unused variable ‘innan’ [-Wunused-variable]
+   int innan = anknytning(&inkommande, inmatning);
+       ^
+../abscissa.cpp:75:8: warning: unused variable ‘inneha’ [-Wunused-variable]
+   int* inneha = aj(inkommande, inne);
+        ^
+../abscissa.cpp:77:8: warning: unused variable ‘inomhus’ [-Wunused-variable]
+   int* inomhus = algebra(inkommande, inom);
+        ^
+../abscissa.cpp:79:8: warning: unused variable ‘insida’ [-Wunused-variable]
+   int* insida = anhopning(inkommande, insamling);
+        ^
+../abscissa.cpp:81:7: warning: unused variable ‘inspelning’ [-Wunused-variable]
+   int inspelning = annars(&inkommande, inskrivning);
+       ^
+../abscissa.cpp:83:8: warning: unused variable ‘integrering’ [-Wunused-variable]
+   int* integrering = anpassning(inkommande, inte);
+        ^
+../abscissa.cpp: In function ‘std::string alltid(int, std::string*)’:
+../abscissa.cpp:95:8: warning: unused variable ‘invid’ [-Wunused-variable]
+   int* invid = allafall(intilliggande, investering);
+        ^
+../abscissa.cpp:97:7: warning: unused variable ‘isbildning’ [-Wunused-variable]
+   int isbildning = alltnog(&intilliggande, is);
+       ^
+../abscissa.cpp:99:16: warning: unused variable ‘ismassa’ [-Wunused-variable]
+   std::string* ismassa = adressbuss(&intilliggande, islandssill);
+                ^
+../abscissa.cpp:101:8: warning: unused variable ‘italienska’ [-Wunused-variable]
+   int* italienska = alltmera(intilliggande, isynnerhet);
+        ^
+../abscissa.cpp:103:8: warning: unused variable ‘j’ [-Wunused-variable]
+   int* j = allokering(intilliggande, ity);
+        ^
+../abscissa.cpp:105:8: warning: unused variable ‘jag’ [-Wunused-variable]
+   int* jag = allafall(intilliggande, jacka);
+        ^
+../abscissa.cpp:107:7: warning: unused variable ‘javisst’ [-Wunused-variable]
+   int javisst = allena(&intilliggande, jamen);
+       ^
+../abscissa.cpp: In function ‘std::string alltigenom(int, std::string*)’:
+../abscissa.cpp:119:8: warning: unused variable ‘julklapp’ [-Wunused-variable]
+   int* julklapp = alls(jovisst, jul);
+        ^
+../abscissa.cpp:121:7: warning: unused variable ‘just’ [-Wunused-variable]
+   int just = alltnog(&jovisst, juristlag);
+       ^
+../abscissa.cpp:123:8: warning: unused variable ‘k’ [-Wunused-variable]
+   int* k = anskaffning(jovisst, justering);
+        ^
+../abscissa.cpp:125:8: warning: unused variable ‘kalibrering’ [-Wunused-variable]
+   int* kalibrering = ana(jovisst, kaka);
+        ^
+../abscissa.cpp:127:8: warning: unused variable ‘kamera’ [-Wunused-variable]
+   int* kamera = allmoge(jovisst, kalv);
+        ^
+../abscissa.cpp:129:16: warning: unused variable ‘kapitalt’ [-Wunused-variable]
+   std::string* kapitalt = angivning(&jovisst, kanske);
+                ^
+../abscissa.cpp:131:7: warning: unused variable ‘kappa’ [-Wunused-variable]
+   int kappa = allena(&jovisst, kapning);
+       ^
+../abscissa.cpp: In function ‘std::string* alltihop(int*, std::string)’:
+../abscissa.cpp:145:8: warning: unused variable ‘kjol’ [-Wunused-variable]
+   int* kjol = anpassning(kattunge, kista);
+        ^
+../abscissa.cpp:147:8: warning: unused variable ‘klapp’ [-Wunused-variable]
+   int* klapp = anslagstavla(kattunge, kladd);
+        ^
+../abscissa.cpp:149:8: warning: unused variable ‘klassificering’ [-Wunused-variable]
+   int* klassificering = alldeles(kattunge, klase);
+        ^
+../abscissa.cpp:151:16: warning: unused variable ‘klocka’ [-Wunused-variable]
+   std::string* klocka = alm(&kattunge, klippa);
+                ^
+../abscissa.cpp:153:8: warning: unused variable ‘klubba’ [-Wunused-variable]
+   int* klubba = algebra(kattunge, klubb);
+        ^
+../abscissa.cpp:155:8: warning: unused variable ‘klunk’ [-Wunused-variable]
+   int* klunk = anspelning(kattunge, klunga);
+        ^
+../abscissa.cpp: In function ‘int alltihopa(int*, std::string)’:
+../abscissa.cpp:173:7: warning: unused variable ‘kock’ [-Wunused-variable]
+   int kock = addering(&knappast, knut);
+       ^
+../abscissa.cpp:175:16: warning: unused variable ‘kokning’ [-Wunused-variable]
+   std::string* kokning = ampere(&knappast, koja);
+                ^
+../abscissa.cpp:177:8: warning: unused variable ‘kollektivanslutning’ [-Wunused-variable]
+   int* kollektivanslutning = advent(knappast, kollega);
+        ^
+../abscissa.cpp:179:16: warning: unused variable ‘kommandolista’ [-Wunused-variable]
+   std::string* kommandolista = alltsammans(&knappast, kommandobrygga);
+                ^
+../abscissa.cpp: In function ‘int allting(int*, std::string)’:
+../abscissa.cpp:191:8: warning: unused variable ‘komplementering’ [-Wunused-variable]
+   int* komplementering = ana(kommunikationsport, kompis);
+        ^
+../abscissa.cpp:193:16: warning: unused variable ‘konfigurering’ [-Wunused-variable]
+   std::string* konfigurering = adressbuss(&kommunikationsport, konditionering);
+                ^
+../abscissa.cpp:197:8: warning: unused variable ‘kontring’ [-Wunused-variable]
+   int* kontring = anskaffning(kommunikationsport, kontra);
+        ^
+../abscissa.cpp:199:16: warning: unused variable ‘kopia’ [-Wunused-variable]
+   std::string* kopia = alfa(&kommunikationsport, konvertering);
+                ^
+../abscissa.cpp: In function ‘int* alltmer(int, std::string*)’:
+../abscissa.cpp:213:16: warning: unused variable ‘kr’ [-Wunused-variable]
+   std::string* kr = adressbuss(&korv, kota);
+                ^
+../abscissa.cpp:215:7: warning: unused variable ‘krigsskola’ [-Wunused-variable]
+   int krigsskola = allting(&korv, krets);
+       ^
+../abscissa.cpp:217:16: warning: unused variable ‘krock’ [-Wunused-variable]
+   std::string* krock = alltihop(&korv, kristi);
+                ^
+../abscissa.cpp:219:8: warning: unused variable ‘krona’ [-Wunused-variable]
+   int* krona = adressering(korv, krok);
+        ^
+../abscissa.cpp:221:7: warning: unused variable ‘kropp’ [-Wunused-variable]
+   int kropp = allena(&korv, kronprins);
+       ^
+../abscissa.cpp: In function ‘int* alltmera(int, std::string*)’:
+../abscissa.cpp:233:8: warning: unused variable ‘kullerbytta’ [-Wunused-variable]
+   int* kullerbytta = ann(krypta, kula);
+        ^
+../abscissa.cpp:235:8: warning: unused variable ‘kunde’ [-Wunused-variable]
+   int* kunde = allmoge(krypta, kulspruta);
+        ^
+../abscissa.cpp:237:8: warning: unused variable ‘kunna’ [-Wunused-variable]
+   int* kunna = anskaffning(krypta, kung);
+        ^
+../abscissa.cpp:239:7: warning: unused variable ‘kupa’ [-Wunused-variable]
+   int kupa = annanstans(&krypta, kunskapsutveckling);
+       ^
+../abscissa.cpp:241:16: warning: unused variable ‘kvadd’ [-Wunused-variable]
+   std::string* kvadd = alltihop(&krypta, kurva);
+                ^
+../abscissa.cpp:243:8: warning: unused variable ‘kvarn’ [-Wunused-variable]
+   int* kvarn = anskaffning(krypta, kvarleva);
+        ^
+../abscissa.cpp:245:8: warning: unused variable ‘kyckling’ [-Wunused-variable]
+   int* kyckling = adressering(krypta, kvinna);
+        ^
+../abscissa.cpp:247:7: warning: unused variable ‘kyss’ [-Wunused-variable]
+   int kyss = anslutningspropp(0, kyrkoherde);
+       ^
+../abscissa.cpp:249:7: warning: unused variable ‘labb’ [-Wunused-variable]
+   int labb = annanstans(&krypta, la);
+       ^
+../abscissa.cpp: In function ‘int alltnog(int*, std::string)’:
+../abscissa.cpp:261:8: warning: unused variable ‘lampa’ [-Wunused-variable]
+   int* lampa = aftonsol(lagring, lagtolkning);
+        ^
+../abscissa.cpp:263:7: warning: unused variable ‘landyta’ [-Wunused-variable]
+   int landyta = aldrig(&lagring, landsdel);
+       ^
+../abscissa.cpp:265:7: warning: unused variable ‘lax’ [-Wunused-variable]
+   int lax = annars(&lagring, lathund);
+       ^
+../abscissa.cpp:269:7: warning: unused variable ‘lera’ [-Wunused-variable]
+   int lera = allesammans(&lagring, lektionssal);
+       ^
+../abscissa.cpp:271:8: warning: unused variable ‘lie’ [-Wunused-variable]
+   int* lie = ann(lagring, leve);
+        ^
+../abscissa.cpp:273:8: warning: unused variable ‘likaledes’ [-Wunused-variable]
+   int* likaledes = anhopning(lagring, likafullt);
+        ^
+../abscissa.cpp:275:7: warning: unused variable ‘lilja’ [-Wunused-variable]
+   int lilja = allteftersom(&lagring, likt);
+       ^
+../abscissa.cpp: In function ‘std::string* alltsammans(int*, std::string)’:
+../abscissa.cpp:289:8: warning: unused variable ‘lite’ [-Wunused-variable]
+   int* lite = allokering(lindning, listning);
+        ^
+../abscissa.cpp:291:16: warning: unused variable ‘livboj’ [-Wunused-variable]
+   std::string* livboj = anordning(&lindning, litet);
+                ^
+../abscissa.cpp:293:16: warning: unused variable ‘ljusstyrka’ [-Wunused-variable]
+   std::string* ljusstyrka = allah(&lindning, ljusstake);
+                ^
+../abscissa.cpp:295:8: warning: unused variable ‘lots’ [-Wunused-variable]
+   int* lots = aftonsol(lindning, loss);
+        ^
+../abscissa.cpp:297:16: warning: unused variable ‘lunga’ [-Wunused-variable]
+   std::string* lunga = alm(&lindning, lufttrumma);
+                ^
+../abscissa.cpp:299:8: warning: unused variable ‘lutning’ [-Wunused-variable]
+   int* lutning = adressering(lindning, lus);
+        ^
+../abscissa.cpp:301:8: warning: unused variable ‘lyra’ [-Wunused-variable]
+   int* lyra = ande(lindning, lykta);
+        ^
+../abscissa.cpp: In function ‘std::string* alm(int*, std::string)’:
+../abscissa.cpp:313:8: warning: unused variable ‘maka’ [-Wunused-variable]
+   int* maka = alldeles(magnetbandshantering, majolika);
+        ^
+../abscissa.cpp:315:7: warning: unused variable ‘mall’ [-Wunused-variable]
+   int mall = alltihopa(&magnetbandshantering, mal);
+       ^
+../abscissa.cpp:319:8: warning: unused variable ‘markering’ [-Wunused-variable]
+   int* markering = allra(magnetbandshantering, mapp);
+        ^
+../abscissa.cpp:321:16: warning: unused variable ‘maska’ [-Wunused-variable]
+   std::string* maska = annonsering(&magnetbandshantering, mas);
+                ^
+../abscissa.cpp: In function ‘std::string almanacka(int, std::string*)’:
+../abscissa.cpp:333:7: warning: unused variable ‘matning’ [-Wunused-variable]
+   int matning = anslutningspropp(&massgrav, matlagning);
+       ^
+../abscissa.cpp:335:8: warning: unused variable ‘max’ [-Wunused-variable]
+   int* max = alltmera(massgrav, matta);
+        ^
+../abscissa.cpp:337:16: warning: unused variable ‘medicinering’ [-Wunused-variable]
+   std::string* medicinering = annonsering(&massgrav, medelst);
+                ^
+../abscissa.cpp:341:16: warning: unused variable ‘mening’ [-Wunused-variable]
+   std::string* mening = annonsering(&massgrav, men);
+                ^
+../abscissa.cpp:343:7: warning: unused variable ‘midja’ [-Wunused-variable]
+   int midja = alltnog(&massgrav, middag);
+       ^
+../abscissa.cpp:345:16: warning: unused variable ‘mina’ [-Wunused-variable]
+   std::string* mina = alm(&massgrav, min);
+                ^
+Finished building: ../abscissa.cpp
+ 
+Building file: ../absurdum.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"absurdum.d" -MT"absurdum.d" -o "absurdum.o" "../absurdum.cpp"
+../absurdum.cpp: In function ‘std::string amortering(int, std::string*)’:
+../absurdum.cpp:21:16: warning: unused variable ‘mjukvara’ [-Wunused-variable]
+   std::string* mjukvara = anledning(&missuppfattning, mja);
+                ^
+../absurdum.cpp:23:8: warning: unused variable ‘modifiering’ [-Wunused-variable]
+   int* modifiering = anpassning(missuppfattning, modellering);
+        ^
+../absurdum.cpp:25:7: warning: unused variable ‘montering’ [-Wunused-variable]
+   int montering = aha(&missuppfattning, moll);
+       ^
+../absurdum.cpp:27:8: warning: unused variable ‘morgonsol’ [-Wunused-variable]
+   int* morgonsol = advent(missuppfattning, morgondimma);
+        ^
+../absurdum.cpp:31:8: warning: unused variable ‘muff’ [-Wunused-variable]
+   int* muff = anpassning(missuppfattning, moturs);
+        ^
+../absurdum.cpp:33:7: warning: unused variable ‘mums’ [-Wunused-variable]
+   int mums = andel(&missuppfattning, mullvad);
+       ^
+../absurdum.cpp:35:7: warning: unused variable ‘musikskiva’ [-Wunused-variable]
+   int musikskiva = andel(&missuppfattning, mur);
+       ^
+../absurdum.cpp:37:16: warning: unused variable ‘mycket’ [-Wunused-variable]
+   std::string* mycket = alltihop(&missuppfattning, mycken);
+                ^
+../absurdum.cpp: In function ‘std::string* ampere(int*, std::string)’:
+../absurdum.cpp:49:16: warning: unused variable ‘nattrock’ [-Wunused-variable]
+   std::string* nattrock = angivning(&nackdel, namnteckning);
+                ^
+../absurdum.cpp:51:16: warning: unused variable ‘nedan’ [-Wunused-variable]
+   std::string* nedan = allah(&nackdel, naturligtvis);
+                ^
+../absurdum.cpp:53:8: warning: unused variable ‘neg’ [-Wunused-variable]
+   int* neg = aj(nackdel, nedtryckning);
+        ^
+../absurdum.cpp:55:16: warning: unused variable ‘nere’ [-Wunused-variable]
+   std::string* nere = annonsering(&nackdel, nejlika);
+                ^
+../absurdum.cpp:57:7: warning: unused variable ‘ning’ [-Wunused-variable]
+   int ning = allesammans(&nackdel, nia);
+       ^
+../absurdum.cpp:59:7: warning: unused variable ‘njutning’ [-Wunused-variable]
+   int njutning = anslutning(&nackdel, nja);
+       ^
+../absurdum.cpp: In function ‘int* ana(int, std::string*)’:
+../absurdum.cpp:71:16: warning: unused variable ‘norr’ [-Wunused-variable]
+   std::string* norr = ampere(&normering, norna);
+                ^
+../absurdum.cpp:75:7: warning: unused variable ‘nr’ [-Wunused-variable]
+   int nr = allihop(&normering, notering);
+       ^
+../absurdum.cpp:77:16: warning: unused variable ‘numera’ [-Wunused-variable]
+   std::string* numera = angivning(&normering, numer);
+                ^
+../absurdum.cpp:79:8: warning: unused variable ‘nyckelpiga’ [-Wunused-variable]
+   int* nyckelpiga = anspelning(normering, nuvarande);
+        ^
+../absurdum.cpp: In function ‘int* ande(int, std::string*)’:
+../absurdum.cpp:93:7: warning: unused variable ‘obs’ [-Wunused-variable]
+   int obs = anslutning(&oavsett, object);
+       ^
+../absurdum.cpp:95:7: warning: unused variable ‘odling’ [-Wunused-variable]
+   int odling = alltihopa(&oavsett, ock);
+       ^
+../absurdum.cpp:97:8: warning: unused variable ‘oftare’ [-Wunused-variable]
+   int* oftare = anhopning(oavsett, ofta);
+        ^
+../absurdum.cpp:99:8: warning: unused variable ‘ogjort’ [-Wunused-variable]
+   int* ogjort = anspelning(oavsett, ogjorda);
+        ^
+../absurdum.cpp:103:16: warning: unused variable ‘olik’ [-Wunused-variable]
+   std::string* olik = alfa(&oavsett, olag);
+                ^
+../absurdum.cpp: In function ‘int andel(int*, std::string)’:
+../absurdum.cpp:115:7: warning: unused variable ‘ombord’ [-Wunused-variable]
+   int ombord = anslutning(&om, omblandning);
+       ^
+../absurdum.cpp:117:7: warning: unused variable ‘omformulering’ [-Wunused-variable]
+   int omformulering = aldrig(&om, omformning);
+       ^
+../absurdum.cpp:121:16: warning: unused variable ‘omkring’ [-Wunused-variable]
+   std::string* omkring = alltihop(&om, omkrets);
+                ^
+../absurdum.cpp:123:8: warning: unused variable ‘omsider’ [-Wunused-variable]
+   int* omsider = allafall(om, omplacering);
+        ^
+../absurdum.cpp:125:7: warning: unused variable ‘omstuvning’ [-Wunused-variable]
+   int omstuvning = anknytning(&om, omslutning);
+       ^
+../absurdum.cpp:127:7: warning: unused variable ‘onekligen’ [-Wunused-variable]
+   int onekligen = allihop(&om, ondo);
+       ^
+../absurdum.cpp: In function ‘std::string* angivning(int*, std::string)’:
+../absurdum.cpp:139:7: warning: unused variable ‘ordbehandlingsutrustning’ [-Wunused-variable]
+   int ordbehandlingsutrustning = anslutning(&opntty, orange);
+       ^
+../absurdum.cpp:141:8: warning: unused variable ‘ordning’ [-Wunused-variable]
+   int* ordning = alltmera(opntty, ordlista);
+        ^
+../absurdum.cpp:143:16: warning: unused variable ‘orm’ [-Wunused-variable]
+   std::string* orm = anordning(&opntty, orgelpipa);
+                ^
+../absurdum.cpp:145:8: warning: unused variable ‘osv’ [-Wunused-variable]
+   int* osv = anskaffning(opntty, ost);
+        ^
+../absurdum.cpp:147:8: warning: unused variable ‘ovillkorligen’ [-Wunused-variable]
+   int* ovillkorligen = anpassning(opntty, ovetande);
+        ^
+../absurdum.cpp:151:7: warning: unused variable ‘pannkaka’ [-Wunused-variable]
+   int pannkaka = anslutning(&opntty, panna);
+       ^
+../absurdum.cpp: In function ‘int* anhopning(int, std::string*)’:
+../absurdum.cpp:163:16: warning: unused variable ‘pass’ [-Wunused-variable]
+   std::string* pass = alfa(&parkering, parvis);
+                ^
+../absurdum.cpp:165:8: warning: unused variable ‘pejling’ [-Wunused-variable]
+   int* pejling = allafall(parkering, passus);
+        ^
+../absurdum.cpp:169:16: warning: unused variable ‘perforering’ [-Wunused-variable]
+   std::string* perforering = annonsering(&parkering, per);
+                ^
+../absurdum.cpp:171:16: warning: unused variable ‘pga’ [-Wunused-variable]
+   std::string* pga = allehanda(&parkering, petita);
+                ^
+../absurdum.cpp: In function ‘int aning(int*, std::string)’:
+../absurdum.cpp:183:8: warning: unused variable ‘planering’ [-Wunused-variable]
+   int* planering = allokering(pinn, placering);
+        ^
+../absurdum.cpp:187:8: warning: unused variable ‘plockning’ [-Wunused-variable]
+   int* plockning = alltmera(pinn, plattform);
+        ^
+../absurdum.cpp:189:8: warning: unused variable ‘plump’ [-Wunused-variable]
+   int* plump = anhopning(pinn, plugg);
+        ^
+../absurdum.cpp:191:7: warning: unused variable ‘plus’ [-Wunused-variable]
+   int plus = aha(&pinn, plural);
+       ^
+../absurdum.cpp:197:8: warning: unused variable ‘precis’ [-Wunused-variable]
+   int* precis = alltmer(pinn, potatis);
+        ^
+../absurdum.cpp:199:16: warning: unused variable ‘prick’ [-Wunused-variable]
+   std::string* prick = angivning(&pinn, pressvisning);
+                ^
+../absurdum.cpp: In function ‘int anknytning(int*, std::string)’:
+../absurdum.cpp:211:16: warning: unused variable ‘programlista’ [-Wunused-variable]
+   std::string* programlista = alltihop(&prisma, programgenerering);
+                ^
+../absurdum.cpp:213:7: warning: unused variable ‘programvara’ [-Wunused-variable]
+   int programvara = annanstans(&prisma, programmering);
+       ^
+../absurdum.cpp:215:7: warning: unused variable ‘prompt’ [-Wunused-variable]
+   int prompt = allena(&prisma, promemoria);
+       ^
+../absurdum.cpp:217:16: warning: unused variable ‘provning’ [-Wunused-variable]
+   std::string* provning = alltihop(&prisma, prosit);
+                ^
+../absurdum.cpp:219:7: warning: unused variable ‘pub’ [-Wunused-variable]
+   int pub = aha(&prisma, pryl);
+       ^
+../absurdum.cpp:221:8: warning: unused variable ‘pump’ [-Wunused-variable]
+   int* pump = aj(prisma, puh);
+        ^
+../absurdum.cpp: In function ‘std::string* anledning(int*, std::string)’:
+../absurdum.cpp:237:16: warning: unused variable ‘rangordning’ [-Wunused-variable]
+   std::string* rangordning = allehanda(&r, ramsa);
+                ^
+../absurdum.cpp:239:7: warning: unused variable ‘rapportering’ [-Wunused-variable]
+   int rapportering = aning(&r, ransonering);
+       ^
+../absurdum.cpp:241:8: warning: unused variable ‘rationalisering’ [-Wunused-variable]
+   int* rationalisering = anskaffning(r, rasket);
+        ^
+../absurdum.cpp:243:8: warning: unused variable ‘realisering’ [-Wunused-variable]
+   int* realisering = allokering(r, razzia);
+        ^
+../absurdum.cpp:245:8: warning: unused variable ‘reatty’ [-Wunused-variable]
+   int* reatty = anskaffning(r, realtidsklocka);
+        ^
+../absurdum.cpp:247:16: warning: unused variable ‘redovisning’ [-Wunused-variable]
+   std::string* redovisning = allt(&r, redigering);
+                ^
+../absurdum.cpp:249:8: warning: unused variable ‘referenslista’ [-Wunused-variable]
+   int* referenslista = anno(r, ref);
+        ^
+../absurdum.cpp: In function ‘std::string anm(int, std::string*)’:
+../absurdum.cpp:261:8: warning: unused variable ‘resp’ [-Wunused-variable]
+   int* resp = adressering(remsa, reservdel);
+        ^
+../absurdum.cpp:263:8: warning: unused variable ‘retur’ [-Wunused-variable]
+   int* retur = advent(remsa, retina);
+        ^
+../absurdum.cpp:267:16: warning: unused variable ‘rimligen’ [-Wunused-variable]
+   std::string* rimligen = allt(&remsa, riktning);
+                ^
+../absurdum.cpp:269:7: warning: unused variable ‘ritning’ [-Wunused-variable]
+   int ritning = aldrig(&remsa, ring);
+       ^
+../absurdum.cpp:271:8: warning: unused variable ‘rospigg’ [-Wunused-variable]
+   int* rospigg = allra(remsa, rock);
+        ^
+../absurdum.cpp:275:7: warning: unused variable ‘rustning’ [-Wunused-variable]
+   int rustning = anknytning(&remsa, rusch);
+       ^
+../absurdum.cpp: In function ‘std::string anmaning(int, std::string*)’:
+../absurdum.cpp:287:8: warning: unused variable ‘sakta’ [-Wunused-variable]
+   int* sakta = allra(ryss, saga);
+        ^
+../absurdum.cpp:289:8: warning: unused variable ‘sam’ [-Wunused-variable]
+   int* sam = alltmer(ryss, salu);
+        ^
+../absurdum.cpp:291:7: warning: unused variable ‘sammanblandning’ [-Wunused-variable]
+   int sammanblandning = alltnog(&ryss, samling);
+       ^
+../absurdum.cpp:293:7: warning: unused variable ‘sammanfogning’ [-Wunused-variable]
+   int sammanfogning = anslutningspropp(&ryss, sammanfattningsvis);
+       ^
+../absurdum.cpp:295:8: warning: unused variable ‘samordning’ [-Wunused-variable]
+   int* samordning = anskaffning(ryss, sammet);
+        ^
+../absurdum.cpp:297:8: warning: unused variable ‘samtliga’ [-Wunused-variable]
+   int* samtliga = alltmera(ryss, samt);
+        ^
+../absurdum.cpp:299:8: warning: unused variable ‘sankte’ [-Wunused-variable]
+   int* sankte = alldeles(ryss, sankta);
+        ^
+../absurdum.cpp: In function ‘int* ann(int, std::string*)’:
+../absurdum.cpp:313:8: warning: unused variable ‘sex’ [-Wunused-variable]
+   int* sex = advent(sedermera, serv);
+        ^
+../absurdum.cpp:315:7: warning: unused variable ‘sic’ [-Wunused-variable]
+   int sic = aldrig(&sedermera, si);
+       ^
+../absurdum.cpp:317:7: warning: unused variable ‘sidled’ [-Wunused-variable]
+   int sidled = annars(&sedermera, sidindelning);
+       ^
+../absurdum.cpp:319:8: warning: unused variable ‘siffra’ [-Wunused-variable]
+   int* siffra = alldeles(sedermera, sidstorlek);
+        ^
+Finished building: ../absurdum.cpp
+ 
+Building file: ../ack.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ack.d" -MT"ack.d" -o "ack.o" "../ack.cpp"
+../ack.cpp: In function ‘int annanstans(int*, std::string)’:
+../ack.cpp:21:16: warning: unused variable ‘singularis’ [-Wunused-variable]
+   std::string* singularis = alm(&simulering, sina);
+                ^
+../ack.cpp:23:8: warning: unused variable ‘sippa’ [-Wunused-variable]
+   int* sippa = algebra(simulering, sinsemellan);
+        ^
+../ack.cpp:25:16: warning: unused variable ‘siste’ [-Wunused-variable]
+   std::string* siste = alfa(&simulering, sista);
+                ^
+../ack.cpp:27:7: warning: unused variable ‘sjukdom’ [-Wunused-variable]
+   int sjukdom = andel(&simulering, sitt);
+       ^
+../ack.cpp:29:8: warning: unused variable ‘ska’ [-Wunused-variable]
+   int* ska = alldeles(simulering, sjuttio);
+        ^
+../ack.cpp:31:7: warning: unused variable ‘skall’ [-Wunused-variable]
+   int skall = anknytning(&simulering, skala);
+       ^
+../ack.cpp:33:7: warning: unused variable ‘skara’ [-Wunused-variable]
+   int skara = allihop(&simulering, skans);
+       ^
+../ack.cpp: In function ‘int annars(int*, std::string)’:
+../ack.cpp:45:7: warning: unused variable ‘skida’ [-Wunused-variable]
+   int skida = andel(&skattning, skena);
+       ^
+../ack.cpp:47:7: warning: unused variable ‘skils’ [-Wunused-variable]
+   int skils = alltnog(&skattning, skilling);
+       ^
+../ack.cpp:49:8: warning: unused variable ‘skiva’ [-Wunused-variable]
+   int* skiva = anskaffning(skattning, skitit);
+        ^
+../ack.cpp:51:7: warning: unused variable ‘skog’ [-Wunused-variable]
+   int skog = allesammans(&skattning, skjutning);
+       ^
+../ack.cpp:53:7: warning: unused variable ‘skolbespisning’ [-Wunused-variable]
+   int skolbespisning = alltnog(&skattning, skolat);
+       ^
+../ack.cpp:55:7: warning: unused variable ‘skottning’ [-Wunused-variable]
+   int skottning = andel(&skattning, skorsten);
+       ^
+../ack.cpp: In function ‘int* anno(int, std::string*)’:
+../ack.cpp:69:8: warning: unused variable ‘skylt’ [-Wunused-variable]
+   int* skylt = anno(skurk, skvatt);
+        ^
+../ack.cpp:71:8: warning: unused variable ‘skyskrapa’ [-Wunused-variable]
+   int* skyskrapa = algebra(skurk, skymt);
+        ^
+../ack.cpp:73:7: warning: unused variable ‘slagning’ [-Wunused-variable]
+   int slagning = addering(&skurk, slagits);
+       ^
+../ack.cpp:75:8: warning: unused variable ‘slang’ [-Wunused-variable]
+   int* slang = anslagstavla(skurk, slalom);
+        ^
+../ack.cpp:77:7: warning: unused variable ‘slik’ [-Wunused-variable]
+   int slik = addering(&skurk, slav);
+       ^
+../ack.cpp:79:7: warning: unused variable ‘slips’ [-Wunused-variable]
+   int slips = allting(&skurk, slinta);
+       ^
+../ack.cpp: In function ‘std::string* annonsering(int*, std::string)’:
+../ack.cpp:91:8: warning: unused variable ‘smekning’ [-Wunused-variable]
+   int* smekning = allra(slutning, smaskens);
+        ^
+../ack.cpp:95:16: warning: unused variable ‘smutsning’ [-Wunused-variable]
+   std::string* smutsning = adressbuss(&slutning, smutskastning);
+                ^
+../ack.cpp:97:7: warning: unused variable ‘snok’ [-Wunused-variable]
+   int snok = allting(&slutning, sno);
+       ^
+../ack.cpp:99:8: warning: unused variable ‘snut’ [-Wunused-variable]
+   int* snut = anspelning(slutning, snurra);
+        ^
+../ack.cpp: In function ‘std::string* anordning(int*, std::string)’:
+../ack.cpp:115:16: warning: unused variable ‘spets’ [-Wunused-variable]
+   std::string* spets = alm(&spak, specialisering);
+                ^
+../ack.cpp:117:16: warning: unused variable ‘spira’ [-Wunused-variable]
+   std::string* spira = angivning(&spak, spillra);
+                ^
+../ack.cpp:119:8: warning: unused variable ‘spolning’ [-Wunused-variable]
+   int* spolning = anno(spak, splittring);
+        ^
+../ack.cpp:121:8: warning: unused variable ‘sprids’ [-Wunused-variable]
+   int* sprids = anhopning(spak, spridning);
+        ^
+../ack.cpp:123:8: warning: unused variable ‘spruta’ [-Wunused-variable]
+   int* spruta = anno(spak, spritt);
+        ^
+../ack.cpp: In function ‘int* anpassning(int, std::string*)’:
+../ack.cpp:135:8: warning: unused variable ‘statskassa’ [-Wunused-variable]
+   int* statskassa = anskaffning(standardisering, stansning);
+        ^
+../ack.cpp:137:16: warning: unused variable ‘stegning’ [-Wunused-variable]
+   std::string* stegning = allehanda(&standardisering, stavning);
+                ^
+../ack.cpp:141:16: warning: unused variable ‘stickpropp’ [-Wunused-variable]
+   std::string* stickpropp = allehanda(&standardisering, stickning);
+                ^
+../ack.cpp:143:16: warning: unused variable ‘still’ [-Wunused-variable]
+   std::string* still = adressbuss(&standardisering, stil);
+                ^
+../ack.cpp:145:7: warning: unused variable ‘stodo’ [-Wunused-variable]
+   int stodo = aha(&standardisering, stock);
+       ^
+../ack.cpp:147:7: warning: unused variable ‘stordia’ [-Wunused-variable]
+   int stordia = aha(&standardisering, stoppbit);
+       ^
+../ack.cpp:149:8: warning: unused variable ‘storleksordning’ [-Wunused-variable]
+   int* storleksordning = anskaffning(standardisering, storlek);
+        ^
+../ack.cpp: In function ‘int* anskaffning(int, std::string*)’:
+../ack.cpp:161:16: warning: unused variable ‘strukturering’ [-Wunused-variable]
+   std::string* strukturering = adressbuss(&strimla, stropp);
+                ^
+../ack.cpp:163:7: warning: unused variable ‘strykning’ [-Wunused-variable]
+   int strykning = andel(&strimla, struts);
+       ^
+../ack.cpp:165:8: warning: unused variable ‘stump’ [-Wunused-variable]
+   int* stump = alls(strimla, stuga);
+        ^
+../ack.cpp:167:8: warning: unused variable ‘styrka’ [-Wunused-variable]
+   int* styrka = allafall(strimla, stuns);
+        ^
+../ack.cpp: In function ‘int* anslagstavla(int, std::string*)’:
+../ack.cpp:181:7: warning: unused variable ‘svans’ [-Wunused-variable]
+   int svans = allena(&svala, svan);
+       ^
+../ack.cpp:183:16: warning: unused variable ‘svenska’ [-Wunused-variable]
+   std::string* svenska = alm(&svala, svensk);
+                ^
+../ack.cpp:187:7: warning: unused variable ‘synbarligen’ [-Wunused-variable]
+   int synbarligen = alltihopa(&svala, synas);
+       ^
+../ack.cpp:191:16: warning: unused variable ‘synts’ [-Wunused-variable]
+   std::string* synts = alfa(&svala, syntetisering);
+                ^
+../ack.cpp:193:7: warning: unused variable ‘syrsa’ [-Wunused-variable]
+   int syrsa = andel(&svala, syra);
+       ^
+../ack.cpp:197:7: warning: unused variable ‘tamp’ [-Wunused-variable]
+   int tamp = allena(&svala, tallrik);
+       ^
+../ack.cpp: In function ‘int anslutning(int*, std::string)’:
+../ack.cpp:209:16: warning: unused variable ‘tax’ [-Wunused-variable]
+   std::string* tax = allah(&tankelek, tavla);
+                ^
+../ack.cpp:213:16: warning: unused variable ‘tele’ [-Wunused-variable]
+   std::string* tele = alm(&tankelek, tejp);
+                ^
+../ack.cpp:217:7: warning: unused variable ‘tenta’ [-Wunused-variable]
+   int tenta = anslutning(&tankelek, temadag);
+       ^
+../ack.cpp: In function ‘int anslutningspropp(int*, std::string)’:
+../ack.cpp:229:8: warning: unused variable ‘textmassa’ [-Wunused-variable]
+   int* textmassa = anslagstavla(testning, texthantering);
+        ^
+../ack.cpp:233:16: warning: unused variable ‘tillbaka’ [-Wunused-variable]
+   std::string* tillbaka = allt(&testning, tidvis);
+                ^
+../ack.cpp:235:16: warning: unused variable ‘tillfreds’ [-Wunused-variable]
+   std::string* tillfreds = alltsammans(&testning, tilldelning);
+                ^
+../ack.cpp:237:16: warning: unused variable ‘tillhopa’ [-Wunused-variable]
+   std::string* tillhopa = allah(&testning, tillhanda);
+                ^
+../ack.cpp:243:16: warning: unused variable ‘timtal’ [-Wunused-variable]
+   std::string* timtal = allah(&testning, timesharing);
+                ^
+../ack.cpp:245:8: warning: unused variable ‘tipp’ [-Wunused-variable]
+   int* tipp = algebra(testning, tiondel);
+        ^
+../ack.cpp: In function ‘int* anspelning(int, std::string*)’:
+../ack.cpp:257:8: warning: unused variable ‘tjur’ [-Wunused-variable]
+   int* tjur = aj(tji, tjugonde);
+        ^
+../ack.cpp:259:8: warning: unused variable ‘tok’ [-Wunused-variable]
+   int* tok = anno(tji, togo);
+        ^
+../ack.cpp:261:7: warning: unused variable ‘tolv’ [-Wunused-variable]
+   int tolv = alltihopa(&tji, tolkning);
+       ^
+../ack.cpp:263:7: warning: unused variable ‘torka’ [-Wunused-variable]
+   int torka = anslutning(&tji, torde);
+       ^
+../ack.cpp:265:8: warning: unused variable ‘trall’ [-Wunused-variable]
+   int* trall = anspelning(tji, torsk);
+        ^
+../ack.cpp:267:8: warning: unused variable ‘trast’ [-Wunused-variable]
+   int* trast = ann(tji, trappa);
+        ^
+../ack.cpp: In function ‘std::string antagligen(int, std::string*)’:
+../ack.cpp:279:16: warning: unused variable ‘trivs’ [-Wunused-variable]
+   std::string* trivs = alfa(&tredje, trivdes);
+                ^
+../ack.cpp:281:8: warning: unused variable ‘troligtvis’ [-Wunused-variable]
+   int* troligtvis = anspelning(tredje, troligen);
+        ^
+../ack.cpp:283:16: warning: unused variable ‘trots’ [-Wunused-variable]
+   std::string* trots = annonsering(&tredje, tross);
+                ^
+../ack.cpp:287:8: warning: unused variable ‘tu’ [-Wunused-variable]
+   int* tu = alls(tredje, tryckning);
+        ^
+../ack.cpp:289:7: warning: unused variable ‘tum’ [-Wunused-variable]
+   int tum = allteftersom(&tredje, tull);
+       ^
+../ack.cpp:291:8: warning: unused variable ‘tunga’ [-Wunused-variable]
+   int* tunga = alldeles(tredje, tumstock);
+        ^
+../ack.cpp:293:7: warning: unused variable ‘tupp’ [-Wunused-variable]
+   int tupp = anslutning(&tredje, tunnelbana);
+       ^
+../ack.cpp:295:7: warning: unused variable ‘tv’ [-Wunused-variable]
+   int tv = allteftersom(&tredje, tuva);
+       ^
+Finished building: ../ack.cpp
+ 
+Building file: ../metamatic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"metamatic.d" -MT"metamatic.d" -o "metamatic.o" "../metamatic.cpp"
+../metamatic.cpp: In function ‘int main()’:
+../metamatic.cpp:20:7: warning: unused variable ‘tysk’ [-Wunused-variable]
+   int tysk = allihop(ty, tydligen);
+       ^
+../metamatic.cpp:23:8: warning: unused variable ‘udda’ [-Wunused-variable]
+   int* udda = advent(u, udd);
+        ^
+../metamatic.cpp:26:16: warning: unused variable ‘umgicks’ [-Wunused-variable]
+   std::string* umgicks = annonsering(uggla, ugn);
+                ^
+../metamatic.cpp:29:7: warning: unused variable ‘underfund’ [-Wunused-variable]
+   int underfund = anslutning(undantagandes, underavdelning);
+       ^
+../metamatic.cpp:35:8: warning: unused variable ‘uppdelning’ [-Wunused-variable]
+   int* uppdelning = allmoge(uppackning, uppblandning);
+        ^
+../metamatic.cpp:38:8: warning: unused variable ‘uppfattning’ [-Wunused-variable]
+   int* uppfattning = ann(uppe, uppenbarligen);
+        ^
+../metamatic.cpp:41:7: warning: unused variable ‘upphandling’ [-Wunused-variable]
+   int upphandling = anslutningspropp(uppfinningsrikedom, uppgradering);
+       ^
+../metamatic.cpp:44:8: warning: unused variable ‘uppmaning’ [-Wunused-variable]
+   int* uppmaning = anskaffning(upplaga, upplysning);
+        ^
+Finished building: ../metamatic.cpp
+ 
+Building target: debug
+Invoking: GCC C++ Linker
+g++  -o "debug"  ./a.o ./abc.o ./abscissa.o ./absurdum.o ./ack.o ./metamatic.o   
+Finished building target: debug
+ 
+13:56:50 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+13:57:16 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+14:00:01 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+14:00:06 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+14:10:02 **** Incremental Build of configuration Debug for project debug ****
+make all 
+Building file: ../ack.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ack.d" -MT"ack.d" -o "ack.o" "../ack.cpp"
+../ack.cpp: In function ‘int annanstans(int*, std::string)’:
+../ack.cpp:21:16: warning: unused variable ‘singularis’ [-Wunused-variable]
+   std::string* singularis = alm(&simulering, sina);
+                ^
+../ack.cpp:23:8: warning: unused variable ‘sippa’ [-Wunused-variable]
+   int* sippa = algebra(simulering, sinsemellan);
+        ^
+../ack.cpp:25:16: warning: unused variable ‘siste’ [-Wunused-variable]
+   std::string* siste = alfa(&simulering, sista);
+                ^
+../ack.cpp:27:7: warning: unused variable ‘sjukdom’ [-Wunused-variable]
+   int sjukdom = andel(&simulering, sitt);
+       ^
+../ack.cpp:29:8: warning: unused variable ‘ska’ [-Wunused-variable]
+   int* ska = alldeles(simulering, sjuttio);
+        ^
+../ack.cpp:31:7: warning: unused variable ‘skall’ [-Wunused-variable]
+   int skall = anknytning(&simulering, skala);
+       ^
+../ack.cpp:33:7: warning: unused variable ‘skara’ [-Wunused-variable]
+   int skara = allihop(&simulering, skans);
+       ^
+../ack.cpp: In function ‘int annars(int*, std::string)’:
+../ack.cpp:45:7: warning: unused variable ‘skida’ [-Wunused-variable]
+   int skida = andel(&skattning, skena);
+       ^
+../ack.cpp:47:7: warning: unused variable ‘skils’ [-Wunused-variable]
+   int skils = alltnog(&skattning, skilling);
+       ^
+../ack.cpp:49:8: warning: unused variable ‘skiva’ [-Wunused-variable]
+   int* skiva = anskaffning(skattning, skitit);
+        ^
+../ack.cpp:51:7: warning: unused variable ‘skog’ [-Wunused-variable]
+   int skog = allesammans(&skattning, skjutning);
+       ^
+../ack.cpp:53:7: warning: unused variable ‘skolbespisning’ [-Wunused-variable]
+   int skolbespisning = alltnog(&skattning, skolat);
+       ^
+../ack.cpp:55:7: warning: unused variable ‘skottning’ [-Wunused-variable]
+   int skottning = andel(&skattning, skorsten);
+       ^
+../ack.cpp: In function ‘int* anno(int, std::string*)’:
+../ack.cpp:69:8: warning: unused variable ‘skylt’ [-Wunused-variable]
+   int* skylt = anno(skurk, skvatt);
+        ^
+../ack.cpp:71:8: warning: unused variable ‘skyskrapa’ [-Wunused-variable]
+   int* skyskrapa = algebra(skurk, skymt);
+        ^
+../ack.cpp:73:7: warning: unused variable ‘slagning’ [-Wunused-variable]
+   int slagning = addering(&skurk, slagits);
+       ^
+../ack.cpp:75:8: warning: unused variable ‘slang’ [-Wunused-variable]
+   int* slang = anslagstavla(skurk, slalom);
+        ^
+../ack.cpp:77:7: warning: unused variable ‘slik’ [-Wunused-variable]
+   int slik = addering(&skurk, slav);
+       ^
+../ack.cpp:79:7: warning: unused variable ‘slips’ [-Wunused-variable]
+   int slips = allting(&skurk, slinta);
+       ^
+../ack.cpp: In function ‘std::string* annonsering(int*, std::string)’:
+../ack.cpp:91:8: warning: unused variable ‘smekning’ [-Wunused-variable]
+   int* smekning = allra(slutning, smaskens);
+        ^
+../ack.cpp:95:16: warning: unused variable ‘smutsning’ [-Wunused-variable]
+   std::string* smutsning = adressbuss(&slutning, smutskastning);
+                ^
+../ack.cpp:97:7: warning: unused variable ‘snok’ [-Wunused-variable]
+   int snok = allting(&slutning, sno);
+       ^
+../ack.cpp:99:8: warning: unused variable ‘snut’ [-Wunused-variable]
+   int* snut = anspelning(slutning, snurra);
+        ^
+../ack.cpp: In function ‘std::string* anordning(int*, std::string)’:
+../ack.cpp:115:16: warning: unused variable ‘spets’ [-Wunused-variable]
+   std::string* spets = alm(&spak, specialisering);
+                ^
+../ack.cpp:117:16: warning: unused variable ‘spira’ [-Wunused-variable]
+   std::string* spira = angivning(&spak, spillra);
+                ^
+../ack.cpp:119:8: warning: unused variable ‘spolning’ [-Wunused-variable]
+   int* spolning = anno(spak, splittring);
+        ^
+../ack.cpp:121:8: warning: unused variable ‘sprids’ [-Wunused-variable]
+   int* sprids = anhopning(spak, spridning);
+        ^
+../ack.cpp:123:8: warning: unused variable ‘spruta’ [-Wunused-variable]
+   int* spruta = anno(spak, spritt);
+        ^
+../ack.cpp: In function ‘int* anpassning(int, std::string*)’:
+../ack.cpp:135:8: warning: unused variable ‘statskassa’ [-Wunused-variable]
+   int* statskassa = anskaffning(standardisering, stansning);
+        ^
+../ack.cpp:137:16: warning: unused variable ‘stegning’ [-Wunused-variable]
+   std::string* stegning = allehanda(&standardisering, stavning);
+                ^
+../ack.cpp:141:16: warning: unused variable ‘stickpropp’ [-Wunused-variable]
+   std::string* stickpropp = allehanda(&standardisering, stickning);
+                ^
+../ack.cpp:143:16: warning: unused variable ‘still’ [-Wunused-variable]
+   std::string* still = adressbuss(&standardisering, stil);
+                ^
+../ack.cpp:145:7: warning: unused variable ‘stodo’ [-Wunused-variable]
+   int stodo = aha(&standardisering, stock);
+       ^
+../ack.cpp:147:7: warning: unused variable ‘stordia’ [-Wunused-variable]
+   int stordia = aha(&standardisering, stoppbit);
+       ^
+../ack.cpp:149:8: warning: unused variable ‘storleksordning’ [-Wunused-variable]
+   int* storleksordning = anskaffning(standardisering, storlek);
+        ^
+../ack.cpp: In function ‘int* anskaffning(int, std::string*)’:
+../ack.cpp:161:16: warning: unused variable ‘strukturering’ [-Wunused-variable]
+   std::string* strukturering = adressbuss(&strimla, stropp);
+                ^
+../ack.cpp:163:7: warning: unused variable ‘strykning’ [-Wunused-variable]
+   int strykning = andel(&strimla, struts);
+       ^
+../ack.cpp:165:8: warning: unused variable ‘stump’ [-Wunused-variable]
+   int* stump = alls(strimla, stuga);
+        ^
+../ack.cpp:167:8: warning: unused variable ‘styrka’ [-Wunused-variable]
+   int* styrka = allafall(strimla, stuns);
+        ^
+../ack.cpp: In function ‘int* anslagstavla(int, std::string*)’:
+../ack.cpp:181:7: warning: unused variable ‘svans’ [-Wunused-variable]
+   int svans = allena(&svala, svan);
+       ^
+../ack.cpp:183:16: warning: unused variable ‘svenska’ [-Wunused-variable]
+   std::string* svenska = alm(&svala, svensk);
+                ^
+../ack.cpp:187:7: warning: unused variable ‘synbarligen’ [-Wunused-variable]
+   int synbarligen = alltihopa(&svala, synas);
+       ^
+../ack.cpp:191:16: warning: unused variable ‘synts’ [-Wunused-variable]
+   std::string* synts = alfa(&svala, syntetisering);
+                ^
+../ack.cpp:193:7: warning: unused variable ‘syrsa’ [-Wunused-variable]
+   int syrsa = andel(&svala, syra);
+       ^
+../ack.cpp:197:7: warning: unused variable ‘tamp’ [-Wunused-variable]
+   int tamp = allena(&svala, tallrik);
+       ^
+../ack.cpp: In function ‘int anslutning(int*, std::string)’:
+../ack.cpp:209:16: warning: unused variable ‘tax’ [-Wunused-variable]
+   std::string* tax = allah(&tankelek, tavla);
+                ^
+../ack.cpp:213:16: warning: unused variable ‘tele’ [-Wunused-variable]
+   std::string* tele = alm(&tankelek, tejp);
+                ^
+../ack.cpp:217:7: warning: unused variable ‘tenta’ [-Wunused-variable]
+   int tenta = anslutning(&tankelek, temadag);
+       ^
+../ack.cpp: In function ‘int anslutningspropp(int*, std::string)’:
+../ack.cpp:229:8: warning: unused variable ‘textmassa’ [-Wunused-variable]
+   int* textmassa = anslagstavla(testning, texthantering);
+        ^
+../ack.cpp:233:16: warning: unused variable ‘tillbaka’ [-Wunused-variable]
+   std::string* tillbaka = allt(&testning, tidvis);
+                ^
+../ack.cpp:235:16: warning: unused variable ‘tillfreds’ [-Wunused-variable]
+   std::string* tillfreds = alltsammans(&testning, tilldelning);
+                ^
+../ack.cpp:237:16: warning: unused variable ‘tillhopa’ [-Wunused-variable]
+   std::string* tillhopa = allah(&testning, tillhanda);
+                ^
+../ack.cpp:243:16: warning: unused variable ‘timtal’ [-Wunused-variable]
+   std::string* timtal = allah(&testning, timesharing);
+                ^
+../ack.cpp:245:8: warning: unused variable ‘tipp’ [-Wunused-variable]
+   int* tipp = algebra(testning, tiondel);
+        ^
+../ack.cpp: In function ‘int* anspelning(int, std::string*)’:
+../ack.cpp:257:8: warning: unused variable ‘tjur’ [-Wunused-variable]
+   int* tjur = aj(tji, tjugonde);
+        ^
+../ack.cpp:259:8: warning: unused variable ‘tok’ [-Wunused-variable]
+   int* tok = anno(tji, togo);
+        ^
+../ack.cpp:261:7: warning: unused variable ‘tolv’ [-Wunused-variable]
+   int tolv = alltihopa(&tji, tolkning);
+       ^
+../ack.cpp:263:7: warning: unused variable ‘torka’ [-Wunused-variable]
+   int torka = anslutning(&tji, torde);
+       ^
+../ack.cpp:265:8: warning: unused variable ‘trall’ [-Wunused-variable]
+   int* trall = anspelning(tji, torsk);
+        ^
+../ack.cpp:267:8: warning: unused variable ‘trast’ [-Wunused-variable]
+   int* trast = ann(tji, trappa);
+        ^
+../ack.cpp: In function ‘std::string antagligen(int, std::string*)’:
+../ack.cpp:279:16: warning: unused variable ‘trivs’ [-Wunused-variable]
+   std::string* trivs = alfa(&tredje, trivdes);
+                ^
+../ack.cpp:281:8: warning: unused variable ‘troligtvis’ [-Wunused-variable]
+   int* troligtvis = anspelning(tredje, troligen);
+        ^
+../ack.cpp:283:16: warning: unused variable ‘trots’ [-Wunused-variable]
+   std::string* trots = annonsering(&tredje, tross);
+                ^
+../ack.cpp:287:8: warning: unused variable ‘tu’ [-Wunused-variable]
+   int* tu = alls(tredje, tryckning);
+        ^
+../ack.cpp:289:7: warning: unused variable ‘tum’ [-Wunused-variable]
+   int tum = allteftersom(&tredje, tull);
+       ^
+../ack.cpp:291:8: warning: unused variable ‘tunga’ [-Wunused-variable]
+   int* tunga = alldeles(tredje, tumstock);
+        ^
+../ack.cpp:293:7: warning: unused variable ‘tupp’ [-Wunused-variable]
+   int tupp = anslutning(&tredje, tunnelbana);
+       ^
+../ack.cpp:295:7: warning: unused variable ‘tv’ [-Wunused-variable]
+   int tv = allteftersom(&tredje, tuva);
+       ^
+Finished building: ../ack.cpp
+ 
+Building target: debug
+Invoking: GCC C++ Linker
+g++  -o "debug"  ./a.o ./abc.o ./abscissa.o ./absurdum.o ./ack.o ./metamatic.o   
+Finished building target: debug
+ 
+14:10:08 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+14:10:24 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+14:11:09 **** Incremental Build of configuration Debug for project debug ****
+make all 
+Building file: ../ack.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ack.d" -MT"ack.d" -o "ack.o" "../ack.cpp"
+../ack.cpp: In function ‘int annanstans(int*, std::string)’:
+../ack.cpp:21:16: warning: unused variable ‘singularis’ [-Wunused-variable]
+   std::string* singularis = alm(&simulering, sina);
+                ^
+../ack.cpp:23:8: warning: unused variable ‘sippa’ [-Wunused-variable]
+   int* sippa = algebra(simulering, sinsemellan);
+        ^
+../ack.cpp:25:16: warning: unused variable ‘siste’ [-Wunused-variable]
+   std::string* siste = alfa(&simulering, sista);
+                ^
+../ack.cpp:27:7: warning: unused variable ‘sjukdom’ [-Wunused-variable]
+   int sjukdom = andel(&simulering, sitt);
+       ^
+../ack.cpp:29:8: warning: unused variable ‘ska’ [-Wunused-variable]
+   int* ska = alldeles(simulering, sjuttio);
+        ^
+../ack.cpp:31:7: warning: unused variable ‘skall’ [-Wunused-variable]
+   int skall = anknytning(&simulering, skala);
+       ^
+../ack.cpp:33:7: warning: unused variable ‘skara’ [-Wunused-variable]
+   int skara = allihop(&simulering, skans);
+       ^
+../ack.cpp: In function ‘int annars(int*, std::string)’:
+../ack.cpp:45:7: warning: unused variable ‘skida’ [-Wunused-variable]
+   int skida = andel(&skattning, skena);
+       ^
+../ack.cpp:47:7: warning: unused variable ‘skils’ [-Wunused-variable]
+   int skils = alltnog(&skattning, skilling);
+       ^
+../ack.cpp:49:8: warning: unused variable ‘skiva’ [-Wunused-variable]
+   int* skiva = anskaffning(skattning, skitit);
+        ^
+../ack.cpp:51:7: warning: unused variable ‘skog’ [-Wunused-variable]
+   int skog = allesammans(&skattning, skjutning);
+       ^
+../ack.cpp:53:7: warning: unused variable ‘skolbespisning’ [-Wunused-variable]
+   int skolbespisning = alltnog(&skattning, skolat);
+       ^
+../ack.cpp:55:7: warning: unused variable ‘skottning’ [-Wunused-variable]
+   int skottning = andel(&skattning, skorsten);
+       ^
+../ack.cpp: In function ‘int* anno(int, std::string*)’:
+../ack.cpp:69:8: warning: unused variable ‘skylt’ [-Wunused-variable]
+   int* skylt = anno(skurk, skvatt);
+        ^
+../ack.cpp:71:8: warning: unused variable ‘skyskrapa’ [-Wunused-variable]
+   int* skyskrapa = algebra(skurk, skymt);
+        ^
+../ack.cpp:73:7: warning: unused variable ‘slagning’ [-Wunused-variable]
+   int slagning = addering(&skurk, slagits);
+       ^
+../ack.cpp:75:8: warning: unused variable ‘slang’ [-Wunused-variable]
+   int* slang = anslagstavla(skurk, slalom);
+        ^
+../ack.cpp:77:7: warning: unused variable ‘slik’ [-Wunused-variable]
+   int slik = addering(&skurk, slav);
+       ^
+../ack.cpp:79:7: warning: unused variable ‘slips’ [-Wunused-variable]
+   int slips = allting(&skurk, slinta);
+       ^
+../ack.cpp: In function ‘std::string* annonsering(int*, std::string)’:
+../ack.cpp:91:8: warning: unused variable ‘smekning’ [-Wunused-variable]
+   int* smekning = allra(slutning, smaskens);
+        ^
+../ack.cpp:95:16: warning: unused variable ‘smutsning’ [-Wunused-variable]
+   std::string* smutsning = adressbuss(&slutning, smutskastning);
+                ^
+../ack.cpp:97:7: warning: unused variable ‘snok’ [-Wunused-variable]
+   int snok = allting(&slutning, sno);
+       ^
+../ack.cpp:99:8: warning: unused variable ‘snut’ [-Wunused-variable]
+   int* snut = anspelning(slutning, snurra);
+        ^
+../ack.cpp: In function ‘std::string* anordning(int*, std::string)’:
+../ack.cpp:115:16: warning: unused variable ‘spets’ [-Wunused-variable]
+   std::string* spets = alm(&spak, specialisering);
+                ^
+../ack.cpp:117:16: warning: unused variable ‘spira’ [-Wunused-variable]
+   std::string* spira = angivning(&spak, spillra);
+                ^
+../ack.cpp:119:8: warning: unused variable ‘spolning’ [-Wunused-variable]
+   int* spolning = anno(spak, splittring);
+        ^
+../ack.cpp:121:8: warning: unused variable ‘sprids’ [-Wunused-variable]
+   int* sprids = anhopning(spak, spridning);
+        ^
+../ack.cpp:123:8: warning: unused variable ‘spruta’ [-Wunused-variable]
+   int* spruta = anno(spak, spritt);
+        ^
+../ack.cpp: In function ‘int* anpassning(int, std::string*)’:
+../ack.cpp:135:8: warning: unused variable ‘statskassa’ [-Wunused-variable]
+   int* statskassa = anskaffning(standardisering, stansning);
+        ^
+../ack.cpp:137:16: warning: unused variable ‘stegning’ [-Wunused-variable]
+   std::string* stegning = allehanda(&standardisering, stavning);
+                ^
+../ack.cpp:141:16: warning: unused variable ‘stickpropp’ [-Wunused-variable]
+   std::string* stickpropp = allehanda(&standardisering, stickning);
+                ^
+../ack.cpp:143:16: warning: unused variable ‘still’ [-Wunused-variable]
+   std::string* still = adressbuss(&standardisering, stil);
+                ^
+../ack.cpp:145:7: warning: unused variable ‘stodo’ [-Wunused-variable]
+   int stodo = aha(&standardisering, stock);
+       ^
+../ack.cpp:147:7: warning: unused variable ‘stordia’ [-Wunused-variable]
+   int stordia = aha(&standardisering, stoppbit);
+       ^
+../ack.cpp:149:8: warning: unused variable ‘storleksordning’ [-Wunused-variable]
+   int* storleksordning = anskaffning(standardisering, storlek);
+        ^
+../ack.cpp: In function ‘int* anskaffning(int, std::string*)’:
+../ack.cpp:161:16: warning: unused variable ‘strukturering’ [-Wunused-variable]
+   std::string* strukturering = adressbuss(&strimla, stropp);
+                ^
+../ack.cpp:163:7: warning: unused variable ‘strykning’ [-Wunused-variable]
+   int strykning = andel(&strimla, struts);
+       ^
+../ack.cpp:165:8: warning: unused variable ‘stump’ [-Wunused-variable]
+   int* stump = alls(strimla, stuga);
+        ^
+../ack.cpp:167:8: warning: unused variable ‘styrka’ [-Wunused-variable]
+   int* styrka = allafall(strimla, stuns);
+        ^
+../ack.cpp: In function ‘int* anslagstavla(int, std::string*)’:
+../ack.cpp:181:7: warning: unused variable ‘svans’ [-Wunused-variable]
+   int svans = allena(&svala, svan);
+       ^
+../ack.cpp:183:16: warning: unused variable ‘svenska’ [-Wunused-variable]
+   std::string* svenska = alm(&svala, svensk);
+                ^
+../ack.cpp:187:7: warning: unused variable ‘synbarligen’ [-Wunused-variable]
+   int synbarligen = alltihopa(&svala, synas);
+       ^
+../ack.cpp:191:16: warning: unused variable ‘synts’ [-Wunused-variable]
+   std::string* synts = alfa(&svala, syntetisering);
+                ^
+../ack.cpp:193:7: warning: unused variable ‘syrsa’ [-Wunused-variable]
+   int syrsa = andel(&svala, syra);
+       ^
+../ack.cpp:197:7: warning: unused variable ‘tamp’ [-Wunused-variable]
+   int tamp = allena(&svala, tallrik);
+       ^
+../ack.cpp: In function ‘int anslutning(int*, std::string)’:
+../ack.cpp:209:16: warning: unused variable ‘tax’ [-Wunused-variable]
+   std::string* tax = allah(&tankelek, tavla);
+                ^
+../ack.cpp:213:16: warning: unused variable ‘tele’ [-Wunused-variable]
+   std::string* tele = alm(&tankelek, tejp);
+                ^
+../ack.cpp:217:7: warning: unused variable ‘tenta’ [-Wunused-variable]
+   int tenta = anslutning(&tankelek, temadag);
+       ^
+../ack.cpp: In function ‘int anslutningspropp(int*, std::string)’:
+../ack.cpp:229:8: warning: unused variable ‘textmassa’ [-Wunused-variable]
+   int* textmassa = anslagstavla(testning, texthantering);
+        ^
+../ack.cpp:233:16: warning: unused variable ‘tillbaka’ [-Wunused-variable]
+   std::string* tillbaka = allt(&testning, tidvis);
+                ^
+../ack.cpp:235:16: warning: unused variable ‘tillfreds’ [-Wunused-variable]
+   std::string* tillfreds = alltsammans(&testning, tilldelning);
+                ^
+../ack.cpp:237:16: warning: unused variable ‘tillhopa’ [-Wunused-variable]
+   std::string* tillhopa = allah(&testning, tillhanda);
+                ^
+../ack.cpp:243:16: warning: unused variable ‘timtal’ [-Wunused-variable]
+   std::string* timtal = allah(&testning, timesharing);
+                ^
+../ack.cpp:245:8: warning: unused variable ‘tipp’ [-Wunused-variable]
+   int* tipp = algebra(testning, tiondel);
+        ^
+../ack.cpp: In function ‘int* anspelning(int, std::string*)’:
+../ack.cpp:257:8: warning: unused variable ‘tjur’ [-Wunused-variable]
+   int* tjur = aj(tji, tjugonde);
+        ^
+../ack.cpp:259:8: warning: unused variable ‘tok’ [-Wunused-variable]
+   int* tok = anno(tji, togo);
+        ^
+../ack.cpp:261:7: warning: unused variable ‘tolv’ [-Wunused-variable]
+   int tolv = alltihopa(&tji, tolkning);
+       ^
+../ack.cpp:263:7: warning: unused variable ‘torka’ [-Wunused-variable]
+   int torka = anslutning(&tji, torde);
+       ^
+../ack.cpp:265:8: warning: unused variable ‘trall’ [-Wunused-variable]
+   int* trall = anspelning(tji, torsk);
+        ^
+../ack.cpp:267:8: warning: unused variable ‘trast’ [-Wunused-variable]
+   int* trast = ann(tji, trappa);
+        ^
+../ack.cpp: In function ‘std::string antagligen(int, std::string*)’:
+../ack.cpp:279:16: warning: unused variable ‘trivs’ [-Wunused-variable]
+   std::string* trivs = alfa(&tredje, trivdes);
+                ^
+../ack.cpp:281:8: warning: unused variable ‘troligtvis’ [-Wunused-variable]
+   int* troligtvis = anspelning(tredje, troligen);
+        ^
+../ack.cpp:283:16: warning: unused variable ‘trots’ [-Wunused-variable]
+   std::string* trots = annonsering(&tredje, tross);
+                ^
+../ack.cpp:287:8: warning: unused variable ‘tu’ [-Wunused-variable]
+   int* tu = alls(tredje, tryckning);
+        ^
+../ack.cpp:289:7: warning: unused variable ‘tum’ [-Wunused-variable]
+   int tum = allteftersom(&tredje, tull);
+       ^
+../ack.cpp:291:8: warning: unused variable ‘tunga’ [-Wunused-variable]
+   int* tunga = alldeles(tredje, tumstock);
+        ^
+../ack.cpp:293:7: warning: unused variable ‘tupp’ [-Wunused-variable]
+   int tupp = anslutning(&tredje, tunnelbana);
+       ^
+../ack.cpp:295:7: warning: unused variable ‘tv’ [-Wunused-variable]
+   int tv = allteftersom(&tredje, tuva);
+       ^
+Finished building: ../ack.cpp
+ 
+Building target: debug
+Invoking: GCC C++ Linker
+g++  -o "debug"  ./a.o ./abc.o ./abscissa.o ./absurdum.o ./ack.o ./metamatic.o   
+Finished building target: debug
+ 
+14:11:47 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+14:17:58 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
+14:19:27 **** Incremental Build of configuration Debug for project debug ****
+make all 
+Building file: ../abscissa.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"abscissa.d" -MT"abscissa.d" -o "abscissa.o" "../abscissa.cpp"
+../abscissa.cpp: In function ‘int* alls(int, std::string*)’:
+../abscissa.cpp:21:8: warning: unused variable ‘husvagn’ [-Wunused-variable]
+   int* husvagn = allokering(hurra, huruvida);
+        ^
+../abscissa.cpp:23:8: warning: unused variable ‘huvuddel’ [-Wunused-variable]
+   int* huvuddel = adressering(hurra, huvudavdelning);
+        ^
+../abscissa.cpp:25:8: warning: unused variable ‘hydda’ [-Wunused-variable]
+   int* hydda = allokering(hurra, hux);
+        ^
+../abscissa.cpp:27:8: warning: unused variable ‘hylla’ [-Wunused-variable]
+   int* hylla = allra(hurra, hyfsning);
+        ^
+../abscissa.cpp:31:7: warning: unused variable ‘ibland’ [-Wunused-variable]
+   int ibland = annars(&hurra, iallafall);
+       ^
+../abscissa.cpp: In function ‘std::string* allt(int*, std::string)’:
+../abscissa.cpp:43:7: warning: unused variable ‘ihop’ [-Wunused-variable]
+   int ihop = aning(&identifiering, igenom);
+       ^
+../abscissa.cpp:45:8: warning: unused variable ‘illa’ [-Wunused-variable]
+   int* illa = ann(identifiering, ikapp);
+        ^
+../abscissa.cpp:47:8: warning: unused variable ‘imperfekt’ [-Wunused-variable]
+   int* imperfekt = advent(identifiering, ilska);
+        ^
+../abscissa.cpp:49:8: warning: unused variable ‘inblandning’ [-Wunused-variable]
+   int* inblandning = aftonsol(identifiering, inalles);
+        ^
+../abscissa.cpp:53:7: warning: unused variable ‘indexering’ [-Wunused-variable]
+   int indexering = aldrig(&identifiering, indentering);
+       ^
+../abscissa.cpp:55:16: warning: unused variable ‘inflygning’ [-Wunused-variable]
+   std::string* inflygning = alm(&identifiering, infix);
+                ^
+../abscissa.cpp:57:7: warning: unused variable ‘ingalunda’ [-Wunused-variable]
+   int ingalunda = andel(&identifiering, ing);
+       ^
+../abscissa.cpp:59:8: warning: unused variable ‘ingenting’ [-Wunused-variable]
+   int* ingenting = allmoge(identifiering, ingenstans);
+        ^
+../abscissa.cpp: In function ‘int allteftersom(int*, std::string)’:
+../abscissa.cpp:71:16: warning: unused variable ‘inlandsis’ [-Wunused-variable]
+   std::string* inlandsis = anledning(&inkommande, inkoppling);
+                ^
+../abscissa.cpp:73:7: warning: unused variable ‘innan’ [-Wunused-variable]
+   int innan = anknytning(&inkommande, inmatning);
+       ^
+../abscissa.cpp:75:8: warning: unused variable ‘inneha’ [-Wunused-variable]
+   int* inneha = aj(inkommande, inne);
+        ^
+../abscissa.cpp:77:8: warning: unused variable ‘inomhus’ [-Wunused-variable]
+   int* inomhus = algebra(inkommande, inom);
+        ^
+../abscissa.cpp:79:8: warning: unused variable ‘insida’ [-Wunused-variable]
+   int* insida = anhopning(inkommande, insamling);
+        ^
+../abscissa.cpp:81:7: warning: unused variable ‘inspelning’ [-Wunused-variable]
+   int inspelning = annars(&inkommande, inskrivning);
+       ^
+../abscissa.cpp:83:8: warning: unused variable ‘integrering’ [-Wunused-variable]
+   int* integrering = anpassning(inkommande, inte);
+        ^
+../abscissa.cpp: In function ‘std::string alltid(int, std::string*)’:
+../abscissa.cpp:95:8: warning: unused variable ‘invid’ [-Wunused-variable]
+   int* invid = allafall(intilliggande, investering);
+        ^
+../abscissa.cpp:97:7: warning: unused variable ‘isbildning’ [-Wunused-variable]
+   int isbildning = alltnog(&intilliggande, is);
+       ^
+../abscissa.cpp:99:16: warning: unused variable ‘ismassa’ [-Wunused-variable]
+   std::string* ismassa = adressbuss(&intilliggande, islandssill);
+                ^
+../abscissa.cpp:101:8: warning: unused variable ‘italienska’ [-Wunused-variable]
+   int* italienska = alltmera(intilliggande, isynnerhet);
+        ^
+../abscissa.cpp:103:8: warning: unused variable ‘j’ [-Wunused-variable]
+   int* j = allokering(intilliggande, ity);
+        ^
+../abscissa.cpp:105:8: warning: unused variable ‘jag’ [-Wunused-variable]
+   int* jag = allafall(intilliggande, jacka);
+        ^
+../abscissa.cpp:107:7: warning: unused variable ‘javisst’ [-Wunused-variable]
+   int javisst = allena(&intilliggande, jamen);
+       ^
+../abscissa.cpp: In function ‘std::string alltigenom(int, std::string*)’:
+../abscissa.cpp:119:8: warning: unused variable ‘julklapp’ [-Wunused-variable]
+   int* julklapp = alls(jovisst, jul);
+        ^
+../abscissa.cpp:121:7: warning: unused variable ‘just’ [-Wunused-variable]
+   int just = alltnog(&jovisst, juristlag);
+       ^
+../abscissa.cpp:123:8: warning: unused variable ‘k’ [-Wunused-variable]
+   int* k = anskaffning(jovisst, justering);
+        ^
+../abscissa.cpp:125:8: warning: unused variable ‘kalibrering’ [-Wunused-variable]
+   int* kalibrering = ana(jovisst, kaka);
+        ^
+../abscissa.cpp:127:8: warning: unused variable ‘kamera’ [-Wunused-variable]
+   int* kamera = allmoge(jovisst, kalv);
+        ^
+../abscissa.cpp:129:16: warning: unused variable ‘kapitalt’ [-Wunused-variable]
+   std::string* kapitalt = angivning(&jovisst, kanske);
+                ^
+../abscissa.cpp:131:7: warning: unused variable ‘kappa’ [-Wunused-variable]
+   int kappa = allena(&jovisst, kapning);
+       ^
+../abscissa.cpp: In function ‘std::string* alltihop(int*, std::string)’:
+../abscissa.cpp:145:8: warning: unused variable ‘kjol’ [-Wunused-variable]
+   int* kjol = anpassning(kattunge, kista);
+        ^
+../abscissa.cpp:147:8: warning: unused variable ‘klapp’ [-Wunused-variable]
+   int* klapp = anslagstavla(kattunge, kladd);
+        ^
+../abscissa.cpp:149:8: warning: unused variable ‘klassificering’ [-Wunused-variable]
+   int* klassificering = alldeles(kattunge, klase);
+        ^
+../abscissa.cpp:151:16: warning: unused variable ‘klocka’ [-Wunused-variable]
+   std::string* klocka = alm(&kattunge, klippa);
+                ^
+../abscissa.cpp:153:8: warning: unused variable ‘klubba’ [-Wunused-variable]
+   int* klubba = algebra(kattunge, klubb);
+        ^
+../abscissa.cpp:155:8: warning: unused variable ‘klunk’ [-Wunused-variable]
+   int* klunk = anspelning(kattunge, klunga);
+        ^
+../abscissa.cpp: In function ‘int alltihopa(int*, std::string)’:
+../abscissa.cpp:173:7: warning: unused variable ‘kock’ [-Wunused-variable]
+   int kock = addering(&knappast, knut);
+       ^
+../abscissa.cpp:175:16: warning: unused variable ‘kokning’ [-Wunused-variable]
+   std::string* kokning = ampere(&knappast, koja);
+                ^
+../abscissa.cpp:177:8: warning: unused variable ‘kollektivanslutning’ [-Wunused-variable]
+   int* kollektivanslutning = advent(knappast, kollega);
+        ^
+../abscissa.cpp:179:16: warning: unused variable ‘kommandolista’ [-Wunused-variable]
+   std::string* kommandolista = alltsammans(&knappast, kommandobrygga);
+                ^
+../abscissa.cpp: In function ‘int allting(int*, std::string)’:
+../abscissa.cpp:191:8: warning: unused variable ‘komplementering’ [-Wunused-variable]
+   int* komplementering = ana(kommunikationsport, kompis);
+        ^
+../abscissa.cpp:193:16: warning: unused variable ‘konfigurering’ [-Wunused-variable]
+   std::string* konfigurering = adressbuss(&kommunikationsport, konditionering);
+                ^
+../abscissa.cpp:197:8: warning: unused variable ‘kontring’ [-Wunused-variable]
+   int* kontring = anskaffning(kommunikationsport, kontra);
+        ^
+../abscissa.cpp:199:16: warning: unused variable ‘kopia’ [-Wunused-variable]
+   std::string* kopia = alfa(&kommunikationsport, konvertering);
+                ^
+../abscissa.cpp: In function ‘int* alltmer(int, std::string*)’:
+../abscissa.cpp:213:16: warning: unused variable ‘kr’ [-Wunused-variable]
+   std::string* kr = adressbuss(&korv, kota);
+                ^
+../abscissa.cpp:215:7: warning: unused variable ‘krigsskola’ [-Wunused-variable]
+   int krigsskola = allting(&korv, krets);
+       ^
+../abscissa.cpp:217:16: warning: unused variable ‘krock’ [-Wunused-variable]
+   std::string* krock = alltihop(&korv, kristi);
+                ^
+../abscissa.cpp:219:8: warning: unused variable ‘krona’ [-Wunused-variable]
+   int* krona = adressering(korv, krok);
+        ^
+../abscissa.cpp:221:7: warning: unused variable ‘kropp’ [-Wunused-variable]
+   int kropp = allena(&korv, kronprins);
+       ^
+../abscissa.cpp: In function ‘int* alltmera(int, std::string*)’:
+../abscissa.cpp:233:8: warning: unused variable ‘kullerbytta’ [-Wunused-variable]
+   int* kullerbytta = ann(krypta, kula);
+        ^
+../abscissa.cpp:235:8: warning: unused variable ‘kunde’ [-Wunused-variable]
+   int* kunde = allmoge(krypta, kulspruta);
+        ^
+../abscissa.cpp:237:8: warning: unused variable ‘kunna’ [-Wunused-variable]
+   int* kunna = anskaffning(krypta, kung);
+        ^
+../abscissa.cpp:239:7: warning: unused variable ‘kupa’ [-Wunused-variable]
+   int kupa = annanstans(&krypta, kunskapsutveckling);
+       ^
+../abscissa.cpp:241:16: warning: unused variable ‘kvadd’ [-Wunused-variable]
+   std::string* kvadd = alltihop(&krypta, kurva);
+                ^
+../abscissa.cpp:243:8: warning: unused variable ‘kvarn’ [-Wunused-variable]
+   int* kvarn = anskaffning(krypta, kvarleva);
+        ^
+../abscissa.cpp:245:8: warning: unused variable ‘kyckling’ [-Wunused-variable]
+   int* kyckling = adressering(krypta, kvinna);
+        ^
+../abscissa.cpp:249:7: warning: unused variable ‘labb’ [-Wunused-variable]
+   int labb = annanstans(&krypta, la);
+       ^
+../abscissa.cpp: In function ‘int alltnog(int*, std::string)’:
+../abscissa.cpp:261:8: warning: unused variable ‘lampa’ [-Wunused-variable]
+   int* lampa = aftonsol(lagring, lagtolkning);
+        ^
+../abscissa.cpp:263:7: warning: unused variable ‘landyta’ [-Wunused-variable]
+   int landyta = aldrig(&lagring, landsdel);
+       ^
+../abscissa.cpp:265:7: warning: unused variable ‘lax’ [-Wunused-variable]
+   int lax = annars(&lagring, lathund);
+       ^
+../abscissa.cpp:269:7: warning: unused variable ‘lera’ [-Wunused-variable]
+   int lera = allesammans(&lagring, lektionssal);
+       ^
+../abscissa.cpp:271:8: warning: unused variable ‘lie’ [-Wunused-variable]
+   int* lie = ann(lagring, leve);
+        ^
+../abscissa.cpp:273:8: warning: unused variable ‘likaledes’ [-Wunused-variable]
+   int* likaledes = anhopning(lagring, likafullt);
+        ^
+../abscissa.cpp:275:7: warning: unused variable ‘lilja’ [-Wunused-variable]
+   int lilja = allteftersom(&lagring, likt);
+       ^
+../abscissa.cpp: In function ‘std::string* alltsammans(int*, std::string)’:
+../abscissa.cpp:289:8: warning: unused variable ‘lite’ [-Wunused-variable]
+   int* lite = allokering(lindning, listning);
+        ^
+../abscissa.cpp:291:16: warning: unused variable ‘livboj’ [-Wunused-variable]
+   std::string* livboj = anordning(&lindning, litet);
+                ^
+../abscissa.cpp:293:16: warning: unused variable ‘ljusstyrka’ [-Wunused-variable]
+   std::string* ljusstyrka = allah(&lindning, ljusstake);
+                ^
+../abscissa.cpp:295:8: warning: unused variable ‘lots’ [-Wunused-variable]
+   int* lots = aftonsol(lindning, loss);
+        ^
+../abscissa.cpp:297:16: warning: unused variable ‘lunga’ [-Wunused-variable]
+   std::string* lunga = alm(&lindning, lufttrumma);
+                ^
+../abscissa.cpp:299:8: warning: unused variable ‘lutning’ [-Wunused-variable]
+   int* lutning = adressering(lindning, lus);
+        ^
+../abscissa.cpp:301:8: warning: unused variable ‘lyra’ [-Wunused-variable]
+   int* lyra = ande(lindning, lykta);
+        ^
+../abscissa.cpp: In function ‘std::string* alm(int*, std::string)’:
+../abscissa.cpp:313:8: warning: unused variable ‘maka’ [-Wunused-variable]
+   int* maka = alldeles(magnetbandshantering, majolika);
+        ^
+../abscissa.cpp:315:7: warning: unused variable ‘mall’ [-Wunused-variable]
+   int mall = alltihopa(&magnetbandshantering, mal);
+       ^
+../abscissa.cpp:319:8: warning: unused variable ‘markering’ [-Wunused-variable]
+   int* markering = allra(magnetbandshantering, mapp);
+        ^
+../abscissa.cpp:321:16: warning: unused variable ‘maska’ [-Wunused-variable]
+   std::string* maska = annonsering(&magnetbandshantering, mas);
+                ^
+../abscissa.cpp: In function ‘std::string almanacka(int, std::string*)’:
+../abscissa.cpp:333:7: warning: unused variable ‘matning’ [-Wunused-variable]
+   int matning = anslutningspropp(&massgrav, matlagning);
+       ^
+../abscissa.cpp:335:8: warning: unused variable ‘max’ [-Wunused-variable]
+   int* max = alltmera(massgrav, matta);
+        ^
+../abscissa.cpp:337:16: warning: unused variable ‘medicinering’ [-Wunused-variable]
+   std::string* medicinering = annonsering(&massgrav, medelst);
+                ^
+../abscissa.cpp:341:16: warning: unused variable ‘mening’ [-Wunused-variable]
+   std::string* mening = annonsering(&massgrav, men);
+                ^
+../abscissa.cpp:343:7: warning: unused variable ‘midja’ [-Wunused-variable]
+   int midja = alltnog(&massgrav, middag);
+       ^
+../abscissa.cpp:345:16: warning: unused variable ‘mina’ [-Wunused-variable]
+   std::string* mina = alm(&massgrav, min);
+                ^
+Finished building: ../abscissa.cpp
+ 
+Building file: ../ack.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ack.d" -MT"ack.d" -o "ack.o" "../ack.cpp"
+../ack.cpp: In function ‘int annanstans(int*, std::string)’:
+../ack.cpp:21:16: warning: unused variable ‘singularis’ [-Wunused-variable]
+   std::string* singularis = alm(&simulering, sina);
+                ^
+../ack.cpp:23:8: warning: unused variable ‘sippa’ [-Wunused-variable]
+   int* sippa = algebra(simulering, sinsemellan);
+        ^
+../ack.cpp:25:16: warning: unused variable ‘siste’ [-Wunused-variable]
+   std::string* siste = alfa(&simulering, sista);
+                ^
+../ack.cpp:27:7: warning: unused variable ‘sjukdom’ [-Wunused-variable]
+   int sjukdom = andel(&simulering, sitt);
+       ^
+../ack.cpp:29:8: warning: unused variable ‘ska’ [-Wunused-variable]
+   int* ska = alldeles(simulering, sjuttio);
+        ^
+../ack.cpp:31:7: warning: unused variable ‘skall’ [-Wunused-variable]
+   int skall = anknytning(&simulering, skala);
+       ^
+../ack.cpp:33:7: warning: unused variable ‘skara’ [-Wunused-variable]
+   int skara = allihop(&simulering, skans);
+       ^
+../ack.cpp: In function ‘int annars(int*, std::string)’:
+../ack.cpp:45:7: warning: unused variable ‘skida’ [-Wunused-variable]
+   int skida = andel(&skattning, skena);
+       ^
+../ack.cpp:47:7: warning: unused variable ‘skils’ [-Wunused-variable]
+   int skils = alltnog(&skattning, skilling);
+       ^
+../ack.cpp:49:8: warning: unused variable ‘skiva’ [-Wunused-variable]
+   int* skiva = anskaffning(skattning, skitit);
+        ^
+../ack.cpp:51:7: warning: unused variable ‘skog’ [-Wunused-variable]
+   int skog = allesammans(&skattning, skjutning);
+       ^
+../ack.cpp:53:7: warning: unused variable ‘skolbespisning’ [-Wunused-variable]
+   int skolbespisning = alltnog(&skattning, skolat);
+       ^
+../ack.cpp:55:7: warning: unused variable ‘skottning’ [-Wunused-variable]
+   int skottning = andel(&skattning, skorsten);
+       ^
+../ack.cpp: In function ‘int* anno(int, std::string*)’:
+../ack.cpp:69:8: warning: unused variable ‘skylt’ [-Wunused-variable]
+   int* skylt = anno(skurk, skvatt);
+        ^
+../ack.cpp:71:8: warning: unused variable ‘skyskrapa’ [-Wunused-variable]
+   int* skyskrapa = algebra(skurk, skymt);
+        ^
+../ack.cpp:73:7: warning: unused variable ‘slagning’ [-Wunused-variable]
+   int slagning = addering(&skurk, slagits);
+       ^
+../ack.cpp:75:8: warning: unused variable ‘slang’ [-Wunused-variable]
+   int* slang = anslagstavla(skurk, slalom);
+        ^
+../ack.cpp:77:7: warning: unused variable ‘slik’ [-Wunused-variable]
+   int slik = addering(&skurk, slav);
+       ^
+../ack.cpp:79:7: warning: unused variable ‘slips’ [-Wunused-variable]
+   int slips = allting(&skurk, slinta);
+       ^
+../ack.cpp: In function ‘std::string* annonsering(int*, std::string)’:
+../ack.cpp:91:8: warning: unused variable ‘smekning’ [-Wunused-variable]
+   int* smekning = allra(slutning, smaskens);
+        ^
+../ack.cpp:95:16: warning: unused variable ‘smutsning’ [-Wunused-variable]
+   std::string* smutsning = adressbuss(&slutning, smutskastning);
+                ^
+../ack.cpp:97:7: warning: unused variable ‘snok’ [-Wunused-variable]
+   int snok = allting(&slutning, sno);
+       ^
+../ack.cpp:99:8: warning: unused variable ‘snut’ [-Wunused-variable]
+   int* snut = anspelning(slutning, snurra);
+        ^
+../ack.cpp: In function ‘std::string* anordning(int*, std::string)’:
+../ack.cpp:115:16: warning: unused variable ‘spets’ [-Wunused-variable]
+   std::string* spets = alm(&spak, specialisering);
+                ^
+../ack.cpp:117:16: warning: unused variable ‘spira’ [-Wunused-variable]
+   std::string* spira = angivning(&spak, spillra);
+                ^
+../ack.cpp:119:8: warning: unused variable ‘spolning’ [-Wunused-variable]
+   int* spolning = anno(spak, splittring);
+        ^
+../ack.cpp:121:8: warning: unused variable ‘sprids’ [-Wunused-variable]
+   int* sprids = anhopning(spak, spridning);
+        ^
+../ack.cpp:123:8: warning: unused variable ‘spruta’ [-Wunused-variable]
+   int* spruta = anno(spak, spritt);
+        ^
+../ack.cpp: In function ‘int* anpassning(int, std::string*)’:
+../ack.cpp:135:8: warning: unused variable ‘statskassa’ [-Wunused-variable]
+   int* statskassa = anskaffning(standardisering, stansning);
+        ^
+../ack.cpp:137:16: warning: unused variable ‘stegning’ [-Wunused-variable]
+   std::string* stegning = allehanda(&standardisering, stavning);
+                ^
+../ack.cpp:141:16: warning: unused variable ‘stickpropp’ [-Wunused-variable]
+   std::string* stickpropp = allehanda(&standardisering, stickning);
+                ^
+../ack.cpp:143:16: warning: unused variable ‘still’ [-Wunused-variable]
+   std::string* still = adressbuss(&standardisering, stil);
+                ^
+../ack.cpp:145:7: warning: unused variable ‘stodo’ [-Wunused-variable]
+   int stodo = aha(&standardisering, stock);
+       ^
+../ack.cpp:147:7: warning: unused variable ‘stordia’ [-Wunused-variable]
+   int stordia = aha(&standardisering, stoppbit);
+       ^
+../ack.cpp:149:8: warning: unused variable ‘storleksordning’ [-Wunused-variable]
+   int* storleksordning = anskaffning(standardisering, storlek);
+        ^
+../ack.cpp: In function ‘int* anskaffning(int, std::string*)’:
+../ack.cpp:161:16: warning: unused variable ‘strukturering’ [-Wunused-variable]
+   std::string* strukturering = adressbuss(&strimla, stropp);
+                ^
+../ack.cpp:163:7: warning: unused variable ‘strykning’ [-Wunused-variable]
+   int strykning = andel(&strimla, struts);
+       ^
+../ack.cpp:165:8: warning: unused variable ‘stump’ [-Wunused-variable]
+   int* stump = alls(strimla, stuga);
+        ^
+../ack.cpp:167:8: warning: unused variable ‘styrka’ [-Wunused-variable]
+   int* styrka = allafall(strimla, stuns);
+        ^
+../ack.cpp: In function ‘int* anslagstavla(int, std::string*)’:
+../ack.cpp:181:7: warning: unused variable ‘svans’ [-Wunused-variable]
+   int svans = allena(&svala, svan);
+       ^
+../ack.cpp:183:16: warning: unused variable ‘svenska’ [-Wunused-variable]
+   std::string* svenska = alm(&svala, svensk);
+                ^
+../ack.cpp:187:7: warning: unused variable ‘synbarligen’ [-Wunused-variable]
+   int synbarligen = alltihopa(&svala, synas);
+       ^
+../ack.cpp:191:16: warning: unused variable ‘synts’ [-Wunused-variable]
+   std::string* synts = alfa(&svala, syntetisering);
+                ^
+../ack.cpp:193:7: warning: unused variable ‘syrsa’ [-Wunused-variable]
+   int syrsa = andel(&svala, syra);
+       ^
+../ack.cpp:197:7: warning: unused variable ‘tamp’ [-Wunused-variable]
+   int tamp = allena(&svala, tallrik);
+       ^
+../ack.cpp: In function ‘int anslutning(int*, std::string)’:
+../ack.cpp:209:16: warning: unused variable ‘tax’ [-Wunused-variable]
+   std::string* tax = allah(&tankelek, tavla);
+                ^
+../ack.cpp:213:16: warning: unused variable ‘tele’ [-Wunused-variable]
+   std::string* tele = alm(&tankelek, tejp);
+                ^
+../ack.cpp:217:7: warning: unused variable ‘tenta’ [-Wunused-variable]
+   int tenta = anslutning(&tankelek, temadag);
+       ^
+../ack.cpp: In function ‘int anslutningspropp(int*, std::string)’:
+../ack.cpp:229:8: warning: unused variable ‘textmassa’ [-Wunused-variable]
+   int* textmassa = anslagstavla(testning, texthantering);
+        ^
+../ack.cpp:233:16: warning: unused variable ‘tillbaka’ [-Wunused-variable]
+   std::string* tillbaka = allt(&testning, tidvis);
+                ^
+../ack.cpp:235:16: warning: unused variable ‘tillfreds’ [-Wunused-variable]
+   std::string* tillfreds = alltsammans(&testning, tilldelning);
+                ^
+../ack.cpp:237:16: warning: unused variable ‘tillhopa’ [-Wunused-variable]
+   std::string* tillhopa = allah(&testning, tillhanda);
+                ^
+../ack.cpp:243:16: warning: unused variable ‘timtal’ [-Wunused-variable]
+   std::string* timtal = allah(&testning, timesharing);
+                ^
+../ack.cpp:245:8: warning: unused variable ‘tipp’ [-Wunused-variable]
+   int* tipp = algebra(testning, tiondel);
+        ^
+../ack.cpp: In function ‘int* anspelning(int, std::string*)’:
+../ack.cpp:257:8: warning: unused variable ‘tjur’ [-Wunused-variable]
+   int* tjur = aj(tji, tjugonde);
+        ^
+../ack.cpp:259:8: warning: unused variable ‘tok’ [-Wunused-variable]
+   int* tok = anno(tji, togo);
+        ^
+../ack.cpp:261:7: warning: unused variable ‘tolv’ [-Wunused-variable]
+   int tolv = alltihopa(&tji, tolkning);
+       ^
+../ack.cpp:263:7: warning: unused variable ‘torka’ [-Wunused-variable]
+   int torka = anslutning(&tji, torde);
+       ^
+../ack.cpp:265:8: warning: unused variable ‘trall’ [-Wunused-variable]
+   int* trall = anspelning(tji, torsk);
+        ^
+../ack.cpp:267:8: warning: unused variable ‘trast’ [-Wunused-variable]
+   int* trast = ann(tji, trappa);
+        ^
+../ack.cpp: In function ‘std::string antagligen(int, std::string*)’:
+../ack.cpp:279:16: warning: unused variable ‘trivs’ [-Wunused-variable]
+   std::string* trivs = alfa(&tredje, trivdes);
+                ^
+../ack.cpp:281:8: warning: unused variable ‘troligtvis’ [-Wunused-variable]
+   int* troligtvis = anspelning(tredje, troligen);
+        ^
+../ack.cpp:283:16: warning: unused variable ‘trots’ [-Wunused-variable]
+   std::string* trots = annonsering(&tredje, tross);
+                ^
+../ack.cpp:287:8: warning: unused variable ‘tu’ [-Wunused-variable]
+   int* tu = alls(tredje, tryckning);
+        ^
+../ack.cpp:289:7: warning: unused variable ‘tum’ [-Wunused-variable]
+   int tum = allteftersom(&tredje, tull);
+       ^
+../ack.cpp:291:8: warning: unused variable ‘tunga’ [-Wunused-variable]
+   int* tunga = alldeles(tredje, tumstock);
+        ^
+../ack.cpp:293:7: warning: unused variable ‘tupp’ [-Wunused-variable]
+   int tupp = anslutning(&tredje, tunnelbana);
+       ^
+../ack.cpp:295:7: warning: unused variable ‘tv’ [-Wunused-variable]
+   int tv = allteftersom(&tredje, tuva);
+       ^
+Finished building: ../ack.cpp
+ 
+Building target: debug
+Invoking: GCC C++ Linker
+g++  -o "debug"  ./a.o ./abc.o ./abscissa.o ./absurdum.o ./ack.o ./metamatic.o   
+Finished building target: debug
+ 
+14:20:03 **** Incremental Build of configuration Debug for project debug ****
+make all 
+make: Nothing to be done for `all'.
