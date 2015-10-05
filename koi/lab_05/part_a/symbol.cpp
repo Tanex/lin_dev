@@ -19,6 +19,27 @@ int lookup(char *s)         /*  returns position of entry for s */
   return 0;
 }
 
+int setvalue(char *s, int val) /* returns the value of entry for s */
+{
+  int p;
+  for (p = lastentry; p > 0; p = p - 1)
+    if (strcmp(symtable[p].lexptr, s) == 0)
+    {
+      symtable[p].value = val;
+      return p;
+    }
+  return 0;
+}
+
+int getvalue(char *s) /* returns the value of entry for s */
+{
+  int p;
+  for (p = lastentry; p > 0; p = p - 1)
+    if (strcmp(symtable[p].lexptr, s) == 0)
+      return symtable[p].value;
+  return 0;
+}
+
 int insert(char *s, int tok)    /*  returns position of entry for s */
 {
   int len;
@@ -30,6 +51,7 @@ int insert(char *s, int tok)    /*  returns position of entry for s */
   lastentry = lastentry + 1;
   symtable[lastentry].token = tok;
   symtable[lastentry].lexptr = &lexemes[lastchar + 1];
+  symtable[lastentry].value = 0;
   lastchar = lastchar + len + 1;
   strcpy(symtable[lastentry].lexptr, s);
   return lastentry;
