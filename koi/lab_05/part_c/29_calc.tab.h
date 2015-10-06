@@ -1,8 +1,8 @@
-/* A Bison parser, made by GNU Bison 3.0.4.  */
+/* A Bison parser, made by GNU Bison 3.0.2.  */
 
 /* Bison interface for Yacc-like parsers in C
 
-   Copyright (C) 1984, 1989-1990, 2000-2015 Free Software Foundation, Inc.
+   Copyright (C) 1984, 1989-1990, 2000-2013 Free Software Foundation, Inc.
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -30,8 +30,8 @@
    This special exception was added by the Free Software Foundation in
    version 2.2 of Bison.  */
 
-#ifndef YY_YY_29_CALC_TAB_HPP_INCLUDED
-# define YY_YY_29_CALC_TAB_HPP_INCLUDED
+#ifndef YY_YY_29_CALC_TAB_H_INCLUDED
+# define YY_YY_29_CALC_TAB_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -49,24 +49,28 @@ extern int yydebug;
     ID = 259,
     DIV = 260,
     MOD = 261,
-    DONE = 262
+    DONE = 262,
+    WHILE = 263,
+    IF = 264,
+    ELSE = 265,
+    PRINT = 266,
+    READ = 267,
+    IFNOELSE = 268
   };
 #endif
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
-
+typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 9 "29_calc.ypp" /* yacc.c:1909  */
+#line 9 "29_calc.y" /* yacc.c:1909  */
 	
 	int val;
 	struct node* root;
 
-#line 67 "29_calc.tab.hpp" /* yacc.c:1909  */
+#line 73 "29_calc.tab.h" /* yacc.c:1909  */
 };
-
-typedef union YYSTYPE YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
 #endif
@@ -76,4 +80,4 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_29_CALC_TAB_HPP_INCLUDED  */
+#endif /* !YY_YY_29_CALC_TAB_H_INCLUDED  */
