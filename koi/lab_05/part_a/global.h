@@ -27,9 +27,9 @@ struct entry {  /*  form of symbol table entry  */
 };
 
 typedef struct node {
-  int node_type;
-  int leaf_value;
-  struct node* args[NODE_MAX_ARGS];
+	int node_type;
+	int leaf_value;
+	node* args[NODE_MAX_ARGS];
 } node;
 
 extern struct entry symtable[];  /* symbol table  */
@@ -41,3 +41,9 @@ extern void parse();  /*  parses and translates expression list  */
 extern int insert(char *s, int tok);  /*  returns position of entry for s */
 extern int lookup(char *s);  /*  returns position of entry for s */
 extern void emit (int t, int tval);  /*  generates output  */
+
+
+extern node* mknode(int node_type, node* arg0 = 0, node* arg1 = 0, node* arg2 = 0, node* arg3 = 0); /* creates a new node in the syntax tree */
+extern node* mkleaf(int, int); /* creates a new leaf node in the syntax tree */
+extern void delete_tree(node* root); /* deletes all nodes connected to the root node */
+extern void treeprint(node* root); /* prints the entire tree to stdout */

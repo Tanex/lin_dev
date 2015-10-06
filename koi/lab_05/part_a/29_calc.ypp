@@ -4,45 +4,46 @@
 	extern int tokenval;
 	extern void yyerror(char*);
     extern int yylex();
-	int power(int base, int exp);
-    node* mkleaf(int, int);
-    node* mknode(int, node*, node*, node*, node*);
 %}
 
-%token NUM ID DIV MOD DONE
+%union {	
+	int val;
+	struct node* root;
+}
 
-%nonassoc '?' ':'
-%nonassoc '<' '>'
+%type <root> expr;
+%type <val> NUM ID
+
+%token NUM ID DIV MOD DONE
+%right '='
 %left '+' '-'
 %left '*' '/' '%' DIV MOD
-%left '^'
+%nonassoc '?' ':'
+%nonassoc '<' '>'
 %left '|' '&' 
 
 %%
 
-list : expr ';' list
-	 | assignment ';' list
+list : expr ';' { treeprint($1); delete_tree($1); } list 
 	 | /*empty*/
- 	 ;
+//assignment : ID { printf("%s\n", symtable[$1].lexptr); } '=' expr { printf("=\n"); symtable[$1].value = $4; $$ = $4; printf("%s = %d\n", symtable[$1].lexptr, symtable[$1].value); };
 
-assignment : ID { printf("%s\n", symtable[$1].lexptr); } '=' expr { printf("=\n"); symtable[$1].value = $4; $$ = $4; printf("%s = %d\n", symtable[$1].lexptr, symtable[$1].value); };
-
-expr : NUM 						{ $$ = $1; printf("%d\n", $1); }
-	 | ID  						{ $$ = symtable[$1].value; printf("%s\n", symtable[$1].lexptr); }
+expr : NUM 						{ $$ = mkleaf(NUM, $1);	}
+	 | ID  						{ $$ = mkleaf(ID, $1); }
+	 | ID '=' expr				{ $$ = mknode('=', mkleaf(ID, $1), $3); }
 	 | '(' expr ')'  			{ $$ = $2; }
-	 | expr '+' expr 			{ $$ = $1 + $3; printf("+\n"); }
-	 | expr '-' expr 			{ $$ = $1 - $3; printf("-\n"); }
-	 | expr '*' expr 			{ $$ = $1 * $3; printf("*\n"); }
-	 | expr '/' expr 			{ $$ = $1 / $3; printf("/\n"); }
-	 | expr DIV expr 			{ $$ = div($1, $3).quot; printf("DIV\n"); }
-	 | expr MOD expr 			{ $$ = $1 % $3; printf("MOD\n"); }
-	 | expr '%' expr 			{ $$ = $1 % $3; printf("%%\n"); }
-	 | expr '&' expr 			{ $$ = $1 & $3; printf("&\n"); }
-	 | expr '|' expr 			{ $$ = $1 | $3; printf("|\n"); }
-	 | expr '<' expr 			{ $$ = $1 < $3; printf("<\n"); }
-	 | expr '>' expr  			{ $$ = $1 > $3; printf(">\n"); }
-	 | expr '?' expr ':' expr 	{ $$ = $1 ? $3 : $5; printf("?:\n"); }
-	 | expr '^' expr			{ $$ = power($1, $3); printf("^\n"); }
+	 | expr '+' expr 			{ $$ = mknode('+', $1, $3); }
+	 | expr '-' expr 			{ $$ = mknode('-', $1, $3); }
+	 | expr '*' expr 			{ $$ = mknode('*', $1, $3); }
+	 | expr '/' expr 			{ $$ = mknode('/', $1, $3); }
+	 | expr DIV expr 			{ $$ = mknode(DIV, $1, $3); }
+	 | expr MOD expr 			{ $$ = mknode(MOD, $1, $3); }
+	 | expr '%' expr 			{ $$ = mknode('%', $1, $3); }
+	 | expr '&' expr 			{ $$ = mknode('&', $1, $3); }
+	 | expr '|' expr 			{ $$ = mknode('|', $1, $3); }
+	 | expr '<' expr 			{ $$ = mknode('<', $1, $3); }
+	 | expr '>' expr  			{ $$ = mknode('>', $1, $3); }
+	 | expr '?' expr ':' expr 	{ $$ = mknode('?', $1, $3, $5); }
 	 ;
 
 %%
@@ -52,44 +53,21 @@ void yyerror(char *msg)
 	printf("Syntax Error: %s\n", msg);
 }
 
+int yylex(void)
+{
+	int lex = lexan();
+	if (lex == NUM || lex == ID)
+		yylval.val = tokenval;
+	//debug
+	/*if (lex < 256)
+		printf("debug yylex char: %c\n", lex);
+	else
+		printf("debug yylex int: %d\n", lex);*/
+	return lex;
+}
+
 void parse()
 {
 	yyparse();
 }
 
-int power(int base, int exp)
-{
-	int i;
-	if (exp < 0)
-		return 0;
-	int sum = 1;
-	for(i = 0; i < exp; i++)
-	{
-		sum *= base;
-	}
-	return sum;
-}
-
-
-node* mkleaf(int node_type, int leaf_value)
-{
-    node* new_node = new node();
-    new_node->node_type = node_type;
-    new_node->leaf_value = leaf_value;
-    new_node->args[0] = new_node->args[1] = new_node->args[2] = new_node->args[3] = 0;
-
-    return new_node;
-}
-
-node* mknode(int node_type, node* arg0 = 0, node* arg1 = 0, node* arg2 = 0, node* arg3 = 0)
-{
-    node* new_node = new node();
-    new_node->node_type = node_type;
-    new_node->leaf_value = 0;
-    new_node->args[0] = arg0;
-    new_node->args[1] = arg1;
-    new_node->args[2] = arg2;
-    new_node->args[3] = arg3;
-    
-    return new_node;
-}
