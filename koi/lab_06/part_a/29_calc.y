@@ -26,7 +26,7 @@
 
 %%
 
-list : statementlist '@' { treeprint($1); interpretor($1); delete_tree($1); } list 
+list : statementlist '@' { printf("%d", interpreter($1)); delete_tree($1); } list 
 	 | /*empty*/
 
 
@@ -37,8 +37,8 @@ statement : expr ';' 									{ $$ = $1; }
 		  | WHILE '(' expr ')' statement				{ $$ = mknode(WHILE, $3, $5, 0, 0); }
 		  | IF '(' expr ')' statement					{ $$ = mknode(IF, $3, $5, 0, 0); } %prec IFNOELSE
 		  | IF '(' expr ')' statement ELSE statement 	{ $$ = mknode(IF, $3, $5, $7, 0); }
-		  | PRINT '(' ID ')' ';'						{ $$ = mknode(PRINT, mkleaf(ID, $3), 0, 0, 0); } 
-		  | READ '(' ID ')' ';'							{ $$ = mknode(READ, mkleaf(ID, $3), 0, 0, 0); }
+		  | PRINT '(' ID ')' ';'						{ $$ = mknode(PRINT, mkleaf(ASGMNTID, $3), 0, 0, 0); } 
+		  | READ '(' ID ')' ';'							{ $$ = mknode(READ, mkleaf(ASGMNTID, $3), 0, 0, 0); }
 		  | '{' statementlist '}'						{ $$ = $2; }
 		  ;
 

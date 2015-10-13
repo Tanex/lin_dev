@@ -2,6 +2,11 @@
 
 int interpreter(node *root)
 {
+	struct entry *variable;
+
+	if(root == 0)
+		return 0;
+	
 	switch(root->node_type)
 	{
 		//Leafs
@@ -12,21 +17,30 @@ int interpreter(node *root)
 			
 		//Assignemnt
 		case '=': 
-			return symtable[interpreter(root->args[0])].value = interpreter(root->args[0]);
+			return symtable[interpreter(root->args[0])].value = interpreter(root->args[1]);
 
 		//Statementlists
 		case ';': 
-			return interpreter(root->args[0]), interpreter(root->args[1]);
+            if(root->args[1] == 0)
+                return interpreter(root->args[0]);
+            else
+            {
+                interpreter(root->args[0]);
+                return interpreter(root->args[1]);
+            }
 		
 		//Statements
 		case WHILE:  
-			return while(interpreter(root->args[0])) { interpreter(root->args[1]) };
+			while(interpreter(root->args[0])) { interpreter(root->args[1]); }
+			return 0;
 		case IF: 
 			return interpreter(root->args[0]) ? interpreter(root->args[1]) : interpreter(root->args[2]);
-		case PRINT: 
-			return printf("%s = %d", symtable[interpreter(root->args[0])].lexptr, symtable[interpreter(root->args[0])].value);
-		case READ;
-			return printf("%s := ", symtable[interpreter(root->args[0])].lexptr), scanf("%d", symtable[interpreter(root->args[0])].value)
+		case PRINT:
+			variable = &symtable[interpreter(root->args[0])];
+			printf("%s = %d\n", variable->lexptr, variable->value);
+			return variable->value;
+		case READ:
+			return printf("%s := ", symtable[interpreter(root->args[0])].lexptr), scanf("%d", &symtable[interpreter(root->args[0])].value);
 			
 		//Basic operators
 		case '+': 
@@ -54,4 +68,5 @@ int interpreter(node *root)
 		case '?': 
 			return interpreter(root->args[0]) ? interpreter(root->args[1]) : interpreter(root->args[2]);
 	}
+	return 0;
 }

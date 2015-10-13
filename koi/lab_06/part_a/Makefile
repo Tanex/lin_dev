@@ -1,5 +1,5 @@
-OBJ = lex.yy.o parser.o emitter.o symbol.o syntax_tree.o init.o error.o main.o
-SRC = 29_calc.tab.c emitter.c symbol.c syntax_tree.c init.c error.c main.c 29_lexerl.l
+OBJ = interpreter.o lex.yy.o parser.o emitter.o symbol.o syntax_tree.o init.o error.o main.o
+SRC = interpreter.c 29_calc.tab.c emitter.c symbol.c syntax_tree.c init.c error.c main.c 29_lexerl.l
 EXE = infix2postfix
 
 infix2postfix:	$(OBJ)
@@ -16,6 +16,9 @@ lex.yy.c: 29_lexer.l global.h
 
 29_calc.tab.h 29_calc.tab.c: 29_calc.y
 	bison -d 29_calc.y
+
+interpreter.o: interpreter.c global.h
+	gcc -Wall -c interpreter.c
 
 parser.o: 	29_calc.tab.c global.h
 	gcc -Wall -o parser.o -c 29_calc.tab.c
