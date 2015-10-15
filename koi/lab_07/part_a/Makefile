@@ -1,5 +1,5 @@
-OBJ = interpreter.o lex.yy.o parser.o emitter.o symbol.o syntax_tree.o init.o error.o main.o
-SRC = interpreter.c 29_calc.tab.c emitter.c symbol.c syntax_tree.c init.c error.c main.c 29_lexerl.l
+OBJ = code_generator.o lex.yy.o parser.o emitter.o symbol.o syntax_tree.o init.o error.o main.o
+SRC = code_generator.c 29_calc.tab.c emitter.c symbol.c syntax_tree.c init.c error.c main.c 29_lexerl.l
 EXE = infix2postfix
 
 infix2postfix:	$(OBJ)
@@ -11,17 +11,17 @@ main.o: 	main.c global.h
 lex.yy.o: lex.yy.c
 	gcc -Wall -c lex.yy.c
 
-lex.yy.c: 29_lexer.l global.h
-	flex 29_lexer.l
+lex.yy.c: lexer.l global.h
+	flex lexer.l
 
-29_calc.tab.h 29_calc.tab.c: 29_calc.y
-	bison -d 29_calc.y
+code_generator.o: code_generator.c global.h
+	gcc -Wall -c code_generator.c
 
-interpreter.o: interpreter.c global.h
-	gcc -Wall -c interpreter.c
+parser.tab.h parser.tab.c: parser.y
+	bison -d parser.y
 
-parser.o: 	29_calc.tab.c global.h
-	gcc -Wall -o parser.o -c 29_calc.tab.c
+parser.o: 	parser.tab.c global.h
+	gcc -Wall -o parser.o -c parser.tab.c
 
 emitter.o: 	emitter.c global.h
 	gcc -Wall -c emitter.c
@@ -38,10 +38,10 @@ init.o: 	init.c global.h
 error.o: 	error.c global.h
 	gcc -Wall -c error.c
 
-global.h: 29_calc.tab.h
+global.h: parser.tab.h
 
 clean: 
-	rm -f $(EXE) $(OBJ) 29.tar.gz 29.zip 29_calc.tab.c 29_calc.tab.h lex.yy.c *~
+	rm -f $(EXE) $(OBJ) 29.tar.gz 29.zip parser.tab.c parser.tab.h lex.yy.c *~
 
 archives: clean
 	cd ..; rm 29.tar 29.zip 29/29.tar 29/29.zip; tar -cvf 29.tar 29; gzip -9 29.tar; zip -r 29.zip 29; mv 29.zip 29/29.zip; mv 29.tar.gz 29/29.tar.gz

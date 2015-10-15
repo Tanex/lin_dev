@@ -1,9 +1,9 @@
 #include "global.h"
 
-int interpreter(node *root)
+void interpreter(node *root)
 {
 	if(root == 0)
-		return 0;
+		return;
 	
 	switch(root->node_type)
 	{
@@ -76,5 +76,4 @@ int interpreter(node *root)
 		case '?': 
 			return interpreter(root->args[0]) ? interpreter(root->args[1]) : interpreter(root->args[2]);
 	}
-	return 0;
 }
