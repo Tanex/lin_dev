@@ -1,5 +1,5 @@
-OBJ = code_generator.o lexer.o parser.o symbol.o syntax_tree.o init.o error.o main.o StackMachine.o
-SRC = code_generator.cpp parser.ypp symbol.cpp syntax_tree.cpp init.cpp error.cpp main.cpp lexerl.l StackMachine.cpp
+OBJ = optimizer.o code_generator.o lexer.o parser.o symbol.o syntax_tree.o init.o error.o main.o StackMachine.o
+SRC = optimizer.cpp code_generator.cpp parser.ypp symbol.cpp syntax_tree.cpp init.cpp error.cpp main.cpp lexerl.l StackMachine.cpp
 EXE = StackMachine
 
 
@@ -38,6 +38,9 @@ error.o: 	error.cpp global.h
 
 StackMachine.o: StackMachine.cpp StackMachine.h
 	g++ -Wall -c StackMachine.cpp
+
+optimizer.o: optimizer.cpp global.h
+	g++ -Wall -c optimizer.cpp
 
 global.h: parser.tab.hpp
 

@@ -45,7 +45,7 @@ void delete_tree(node* root)
 void printtree1(node* root, int level) {
 	if (root == 0)
 	;
-	else if (root->node_type == ID) {
+	else if (root->node_type == ID || root->node_type == ASGMNTID) {
 		printf("%*s", 2*level, "");
 		printf("%s\n", symtable[root->leaf_value].lexptr);
 	}

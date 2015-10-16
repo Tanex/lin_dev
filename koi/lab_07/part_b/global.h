@@ -50,3 +50,5 @@ extern node* mkleaf(int, int); /* creates a new leaf node in the syntax tree */
 extern void delete_tree(node* root); /* deletes all nodes connected to the root node */
 extern void treeprint(node* root); /* prints the entire tree to stdout */
 extern void code_gen(node* root); /*generates stack machine code for the syntaxtree */
+
+extern node* optimizer(node* root); /*optimizes the syntaxtree*/
