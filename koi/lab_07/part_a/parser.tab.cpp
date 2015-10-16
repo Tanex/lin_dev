@@ -1,8 +1,8 @@
-/* A Bison parser, made by GNU Bison 3.0.2.  */
+/* A Bison parser, made by GNU Bison 3.0.4.  */
 
 /* Bison implementation for Yacc-like parsers in C
 
-   Copyright (C) 1984, 1989-1990, 2000-2013 Free Software Foundation, Inc.
+   Copyright (C) 1984, 1989-1990, 2000-2015 Free Software Foundation, Inc.
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -44,7 +44,7 @@
 #define YYBISON 1
 
 /* Bison version.  */
-#define YYBISON_VERSION "3.0.2"
+#define YYBISON_VERSION "3.0.4"
 
 /* Skeleton name.  */
 #define YYSKELETON_NAME "yacc.c"
@@ -62,7 +62,7 @@
 
 
 /* Copy the first part of user declarations.  */
-#line 1 "29_calc.y" /* yacc.c:339  */
+#line 1 "parser.ypp" /* yacc.c:339  */
 
 	#include <stdio.h>
 	#include "global.h"
@@ -70,7 +70,7 @@
 	extern void yyerror(const char*);
 	extern int yylex();
 
-#line 74 "29_calc.tab.c" /* yacc.c:339  */
+#line 74 "parser.tab.cpp" /* yacc.c:339  */
 
 # ifndef YY_NULLPTR
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -89,9 +89,9 @@
 #endif
 
 /* In a future release of Bison, this section will be replaced
-   by #include "29_calc.tab.h".  */
-#ifndef YY_YY_29_CALC_TAB_H_INCLUDED
-# define YY_YY_29_CALC_TAB_H_INCLUDED
+   by #include "parser.tab.hpp".  */
+#ifndef YY_YY_PARSER_TAB_HPP_INCLUDED
+# define YY_YY_PARSER_TAB_HPP_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -122,16 +122,18 @@ extern int yydebug;
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
-typedef union YYSTYPE YYSTYPE;
+
 union YYSTYPE
 {
-#line 9 "29_calc.y" /* yacc.c:355  */
+#line 9 "parser.ypp" /* yacc.c:355  */
 	
 	int val;
 	struct node* root;
 
-#line 134 "29_calc.tab.c" /* yacc.c:355  */
+#line 134 "parser.tab.cpp" /* yacc.c:355  */
 };
+
+typedef union YYSTYPE YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
 #endif
@@ -141,11 +143,11 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_29_CALC_TAB_H_INCLUDED  */
+#endif /* !YY_YY_PARSER_TAB_HPP_INCLUDED  */
 
 /* Copy the second part of user declarations.  */
 
-#line 149 "29_calc.tab.c" /* yacc.c:358  */
+#line 151 "parser.tab.cpp" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -1281,163 +1283,163 @@ yyreduce:
   switch (yyn)
     {
         case 2:
-#line 29 "29_calc.y" /* yacc.c:1646  */
-    { printf("%d", interpreter((yyvsp[-1].root))); delete_tree((yyvsp[-1].root)); }
-#line 1287 "29_calc.tab.c" /* yacc.c:1646  */
+#line 29 "parser.ypp" /* yacc.c:1646  */
+    { code_gen((yyvsp[-1].root)); sm.list_program(); delete_tree((yyvsp[-1].root)); }
+#line 1289 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 5:
-#line 33 "29_calc.y" /* yacc.c:1646  */
+#line 33 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode(';', (yyvsp[-1].root), (yyvsp[0].root), 0, 0); }
-#line 1293 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1295 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 6:
-#line 34 "29_calc.y" /* yacc.c:1646  */
+#line 34 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = 0; }
-#line 1299 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1301 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 7:
-#line 36 "29_calc.y" /* yacc.c:1646  */
+#line 36 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = (yyvsp[-1].root); }
-#line 1305 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1307 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 8:
-#line 37 "29_calc.y" /* yacc.c:1646  */
+#line 37 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode(WHILE, (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1311 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1313 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 9:
-#line 38 "29_calc.y" /* yacc.c:1646  */
+#line 38 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode(IF, (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1317 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1319 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 10:
-#line 39 "29_calc.y" /* yacc.c:1646  */
+#line 39 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode(IF, (yyvsp[-4].root), (yyvsp[-2].root), (yyvsp[0].root), 0); }
-#line 1323 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1325 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 11:
-#line 40 "29_calc.y" /* yacc.c:1646  */
-    { (yyval.root) = mknode(PRINT, mkleaf(ASGMNTID, (yyvsp[-2].val)), 0, 0, 0); }
-#line 1329 "29_calc.tab.c" /* yacc.c:1646  */
+#line 40 "parser.ypp" /* yacc.c:1646  */
+    { (yyval.root) = mknode(PRINT, mkleaf(ID, (yyvsp[-2].val)), 0, 0, 0); }
+#line 1331 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 12:
-#line 41 "29_calc.y" /* yacc.c:1646  */
+#line 41 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode(READ, mkleaf(ASGMNTID, (yyvsp[-2].val)), 0, 0, 0); }
-#line 1335 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1337 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 13:
-#line 42 "29_calc.y" /* yacc.c:1646  */
+#line 42 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = (yyvsp[-1].root); }
-#line 1341 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1343 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 14:
-#line 46 "29_calc.y" /* yacc.c:1646  */
+#line 46 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mkleaf(NUM, (yyvsp[0].val));	}
-#line 1347 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1349 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 15:
-#line 47 "29_calc.y" /* yacc.c:1646  */
+#line 47 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mkleaf(ID, (yyvsp[0].val)); }
-#line 1353 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1355 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 16:
-#line 48 "29_calc.y" /* yacc.c:1646  */
+#line 48 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('=', mkleaf(ASGMNTID, (yyvsp[-2].val)), (yyvsp[0].root), 0, 0); }
-#line 1359 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1361 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 17:
-#line 49 "29_calc.y" /* yacc.c:1646  */
+#line 49 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = (yyvsp[-1].root); }
-#line 1365 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1367 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 18:
-#line 50 "29_calc.y" /* yacc.c:1646  */
+#line 50 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('+', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1371 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1373 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 19:
-#line 51 "29_calc.y" /* yacc.c:1646  */
+#line 51 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('-', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1377 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1379 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 20:
-#line 52 "29_calc.y" /* yacc.c:1646  */
+#line 52 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('*', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1383 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1385 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 21:
-#line 53 "29_calc.y" /* yacc.c:1646  */
+#line 53 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('/', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1389 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1391 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 22:
-#line 54 "29_calc.y" /* yacc.c:1646  */
+#line 54 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode(DIV, (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1395 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1397 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 23:
-#line 55 "29_calc.y" /* yacc.c:1646  */
+#line 55 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode(MOD, (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1401 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1403 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 24:
-#line 56 "29_calc.y" /* yacc.c:1646  */
+#line 56 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('%', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1407 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1409 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 25:
-#line 57 "29_calc.y" /* yacc.c:1646  */
+#line 57 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('&', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1413 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1415 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 26:
-#line 58 "29_calc.y" /* yacc.c:1646  */
+#line 58 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('|', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1419 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1421 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 27:
-#line 59 "29_calc.y" /* yacc.c:1646  */
+#line 59 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('<', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1425 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1427 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 28:
-#line 60 "29_calc.y" /* yacc.c:1646  */
+#line 60 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('>', (yyvsp[-2].root), (yyvsp[0].root), 0, 0); }
-#line 1431 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1433 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
   case 29:
-#line 61 "29_calc.y" /* yacc.c:1646  */
+#line 61 "parser.ypp" /* yacc.c:1646  */
     { (yyval.root) = mknode('?', (yyvsp[-4].root), (yyvsp[-2].root), (yyvsp[0].root), 0); }
-#line 1437 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1439 "parser.tab.cpp" /* yacc.c:1646  */
     break;
 
 
-#line 1441 "29_calc.tab.c" /* yacc.c:1646  */
+#line 1443 "parser.tab.cpp" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -1665,7 +1667,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 64 "29_calc.y" /* yacc.c:1906  */
+#line 64 "parser.ypp" /* yacc.c:1906  */
 
 
 void yyerror(const char *msg)

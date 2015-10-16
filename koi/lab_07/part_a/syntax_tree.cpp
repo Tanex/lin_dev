@@ -23,7 +23,8 @@ node* mkleaf(int node_type, int leaf_value)
 {
 	//debug
 	//printf("mkleaf %d\t%d\n", node_type, leaf_value);
-	node* new_node = (node*)malloc(sizeof(node));
+	//node* new_node = (node*)malloc(sizeof(node));
+    node* new_node = new node();
 	new_node->node_type = node_type;
 	new_node->leaf_value = leaf_value;
 	new_node->args[0] = new_node->args[1] = new_node->args[2] = new_node->args[3] = 0;
@@ -37,7 +38,8 @@ void delete_tree(node* root)
 	while(root->args[i] != 0)
 		delete_tree(root->args[i++]);
 
-	free((void*)root);
+	//free((void*)root);
+    delete root;
 }
 
 void printtree1(node* root, int level) {

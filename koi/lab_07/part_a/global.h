@@ -4,7 +4,8 @@
 #include <ctype.h>  /* ... and for character test routines */
 #include <stdlib.h> /* ... and for some standard routines, such as exit */
 #include <string.h> /* ... and for string routines */
-#include "parser.tab.h"
+#include "parser.tab.hpp"
+#include "StackMachine.h"
 
 #define BSIZE  128  /* buffer size */
 #define NONE   -1
@@ -18,6 +19,8 @@
 //#define DONE   260
 
 extern int tokenval;   /*  value of token attribute */  
+
+static StackMachine sm;
 
 struct entry {  /*  form of symbol table entry  */
   char *lexptr; 
@@ -46,3 +49,4 @@ extern node* mknode(int node_type, node* arg0, node* arg1, node* arg2, node* arg
 extern node* mkleaf(int, int); /* creates a new leaf node in the syntax tree */
 extern void delete_tree(node* root); /* deletes all nodes connected to the root node */
 extern void treeprint(node* root); /* prints the entire tree to stdout */
+extern void code_gen(node* root); /*generates stack machine code for the syntaxtree */

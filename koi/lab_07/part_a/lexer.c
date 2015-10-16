@@ -1,5 +1,6 @@
+#line 2 "lexer.c"
 
-#line 3 "lex.yy.c"
+#line 4 "lexer.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -474,10 +475,10 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "29_lexer.l"
-#line 2 "29_lexer.l"
+#line 1 "lexer.l"
+#line 2 "lexer.l"
 #include "global.h"
-#line 481 "lex.yy.c"
+#line 482 "lexer.c"
 
 #define INITIAL 0
 
@@ -686,10 +687,10 @@ YY_DECL
 		}
 
 	{
-#line 7 "29_lexer.l"
+#line 7 "lexer.l"
 
 
-#line 693 "lex.yy.c"
+#line 694 "lexer.c"
 
 	while ( 1 )		/* loops until end-of-file is reached */
 		{
@@ -748,58 +749,58 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 9 "29_lexer.l"
+#line 9 "lexer.l"
 { /* ignore whitespace */ }
 	YY_BREAK
 case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
-#line 10 "29_lexer.l"
+#line 10 "lexer.l"
 { }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 11 "29_lexer.l"
+#line 11 "lexer.l"
 { yylval.val = atoi(yytext); return NUM; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 12 "29_lexer.l"
+#line 12 "lexer.l"
 { return MOD; }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 13 "29_lexer.l"
+#line 13 "lexer.l"
 { return DIV; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 14 "29_lexer.l"
+#line 14 "lexer.l"
 { return WHILE; } 
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 15 "29_lexer.l"
+#line 15 "lexer.l"
 { return IF; } 
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 16 "29_lexer.l"
+#line 16 "lexer.l"
 { return ELSE; } 
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 17 "29_lexer.l"
+#line 17 "lexer.l"
 { return PRINT; } 
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 18 "29_lexer.l"
+#line 18 "lexer.l"
 { return READ; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 19 "29_lexer.l"
+#line 19 "lexer.l"
 {       
 				int p = lookup (yytext);
 		        if (p == 0)
@@ -810,19 +811,19 @@ YY_RULE_SETUP
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 26 "29_lexer.l"
+#line 26 "lexer.l"
 { return *yytext; }
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
-#line 27 "29_lexer.l"
+#line 27 "lexer.l"
 { return DONE; }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 29 "29_lexer.l"
+#line 29 "lexer.l"
 ECHO;
 	YY_BREAK
-#line 826 "lex.yy.c"
+#line 827 "lexer.c"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1815,6 +1816,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 29 "29_lexer.l"
+#line 29 "lexer.l"
+
 
 

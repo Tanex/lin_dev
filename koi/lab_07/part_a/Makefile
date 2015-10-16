@@ -1,47 +1,49 @@
-OBJ = code_generator.o lex.yy.o parser.o emitter.o symbol.o syntax_tree.o init.o error.o main.o
-SRC = code_generator.c 29_calc.tab.c emitter.c symbol.c syntax_tree.c init.c error.c main.c 29_lexerl.l
+OBJ = code_generator.o lexer.o parser.o symbol.o syntax_tree.o init.o error.o main.o StackMachine.o
+SRC = code_generator.cpp parser.ypp symbol.cpp syntax_tree.cpp init.cpp error.cpp main.cpp lexerl.l StackMachine.cpp
 EXE = infix2postfix
 
+CPPFLAGS = -g
+
 infix2postfix:	$(OBJ)
-	gcc -Wall -o infix2postfix $(OBJ)
+	g++ -Wall -o infix2postfix $(OBJ)
 
-main.o: 	main.c global.h
-	gcc -Wall -c main.c
+main.o: 	main.cpp StackMachine.h global.h
+	g++ -Wall -c main.cpp
 
-lex.yy.o: lex.yy.c
-	gcc -Wall -c lex.yy.c
+lexer.o: lexer.c
+	g++ -Wall -c lexer.c
 
-lex.yy.c: lexer.l global.h
-	flex lexer.l
+lexer.c: lexer.l global.h
+	flex -o lexer.c lexer.l
 
-code_generator.o: code_generator.c global.h
-	gcc -Wall -c code_generator.c
+code_generator.o: code_generator.cpp global.h
+	g++ -Wall -c code_generator.cpp
 
-parser.tab.h parser.tab.c: parser.y
-	bison -d parser.y
+parser.tab.hpp parser.tab.cpp: parser.ypp
+	bison -d parser.ypp
 
-parser.o: 	parser.tab.c global.h
-	gcc -Wall -o parser.o -c parser.tab.c
+parser.o: 	parser.tab.cpp global.h
+	g++ -Wall -o parser.o -c parser.tab.cpp
 
-emitter.o: 	emitter.c global.h
-	gcc -Wall -c emitter.c
+symbol.o: 	symbol.cpp global.h
+	g++ -Wall -c symbol.cpp
 
-symbol.o: 	symbol.c global.h
-	gcc -Wall -c symbol.c
+syntax_tree.o: syntax_tree.cpp global.h
+	g++ -Wall -c syntax_tree.cpp
 
-syntax_tree.o: syntax_tree.c global.h
-	gcc -Wall -c syntax_tree.c
+init.o: 	init.cpp global.h
+	g++ -Wall -c init.cpp
 
-init.o: 	init.c global.h
-	gcc -Wall -c init.c
+error.o: 	error.cpp global.h
+	g++ -Wall -c error.cpp
 
-error.o: 	error.c global.h
-	gcc -Wall -c error.c
+StackMachine.o: StackMachine.cpp StackMachine.h
+	g++ -Wall -c StackMachine.cpp
 
-global.h: parser.tab.h
+global.h: parser.tab.hpp
 
 clean: 
-	rm -f $(EXE) $(OBJ) 29.tar.gz 29.zip parser.tab.c parser.tab.h lex.yy.c *~
+	rm -f $(EXE) $(OBJ) 29.tar.gz 29.zip parser.tab.cpp parser.tab.hpp lexer.c *~
 
 archives: clean
 	cd ..; rm 29.tar 29.zip 29/29.tar 29/29.zip; tar -cvf 29.tar 29; gzip -9 29.tar; zip -r 29.zip 29; mv 29.zip 29/29.zip; mv 29.tar.gz 29/29.tar.gz
