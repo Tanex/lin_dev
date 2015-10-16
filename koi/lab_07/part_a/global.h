@@ -20,7 +20,7 @@
 
 extern int tokenval;   /*  value of token attribute */  
 
-static StackMachine sm;
+extern StackMachine sm;
 
 struct entry {  /*  form of symbol table entry  */
   char *lexptr; 

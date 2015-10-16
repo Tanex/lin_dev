@@ -18,7 +18,7 @@ void code_gen(node *root)
 		case '=': code_gen(root->args[0]); code_gen(root->args[1]); sm.append(Instruction(assign)); break;
 
 		//Statementlists
-		case ';': code_gen(root->args[0]); code_gen(root->args[0]); break;
+		case ';': code_gen(root->args[0]); code_gen(root->args[1]); break;
 		
 		//Statements
 		case WHILE: 

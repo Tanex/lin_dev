@@ -2,6 +2,8 @@
 
 #include "global.h"
 
+StackMachine sm;
+
 int main(void)
 {
   init();

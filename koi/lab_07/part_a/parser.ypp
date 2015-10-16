@@ -26,7 +26,7 @@
 
 %%
 
-list : statementlist '@' { code_gen($1); sm.list_program(); delete_tree($1); } list 
+list : statementlist '@' { code_gen($1); sm.append(Instruction(halt)); sm.showstate(); sm.list_program(); sm.set_trace(1); sm.run(); sm.showstate(); delete_tree($1); } list 
 	 | /*empty*/
 
 
