@@ -9,12 +9,14 @@
 %union {	
 	int val;
 	struct node* root;
+    char str[32 + 1];
 }
 
-%type <root> expr statement statementlist
+%type <root> expr statement statementlist vardecl
 %type <val> NUM ID
+%type <str> STR
 
-%token NUM ID DIV MOD DONE WHILE IF ELSE PRINT READ ASGMNTID
+%token NUM ID VARSTR VARINT STR DIV MOD DONE WHILE IF ELSE PRINT READ ASGMNTID
 
 %right '='
 %nonassoc IFNOELSE
@@ -26,7 +28,7 @@
 
 %%
 
-list : statementlist '@' { treeprint($1); node* opt_tree = optimizer($1); printf("Optimized "); treeprint(opt_tree); delete_tree($1); delete_tree(opt_tree); } list 
+list : statementlist '@'  { treeprint($1); if(type_checker($1) == TYPE_ERROR) { printf("TYPE ERROR IN INPUT"); } else { printf("TYPES OK IN INPUT"); } delete_tree($1); } list //{ treeprint($1); node* opt_tree = optimizer($1); printf("Optimized "); treeprint(opt_tree); delete_tree($1); delete_tree(opt_tree); } list 
 	 | /*empty*/
 
 
@@ -34,18 +36,23 @@ statementlist : statement statementlist					{ $$ = mknode(';', $1, $2, 0, 0); }
 			  | /*empty*/								{ $$ = 0; }
 
 statement : expr ';' 									{ $$ = $1; }
+          | vardecl ';'                                 { $$ = $1; }
 		  | WHILE '(' expr ')' statement				{ $$ = mknode(WHILE, $3, $5, 0, 0); }
 		  | IF '(' expr ')' statement					{ $$ = mknode(IF, $3, $5, 0, 0); } %prec IFNOELSE
 		  | IF '(' expr ')' statement ELSE statement 	{ $$ = mknode(IF, $3, $5, $7, 0); }
-		  | PRINT '(' ID ')' ';'						{ $$ = mknode(PRINT, mkleaf(ID, $3), 0, 0, 0); } 
-		  | READ '(' ID ')' ';'							{ $$ = mknode(READ, mkleaf(ASGMNTID, $3), 0, 0, 0); }
+		  | PRINT '(' ID ')' ';'						{ $$ = mknode(PRINT, mkleaf(ID, $3, 0), 0, 0, 0); } 
+		  | READ '(' ID ')' ';'							{ $$ = mknode(READ, mkleaf(ASGMNTID, $3, 0), 0, 0, 0); }
 		  | '{' statementlist '}'						{ $$ = $2; }
 		  ;
 
+vardecl : VARSTR ID                { $$ = mknode(VARSTR, mkleaf(ID, $2, 0), 0, 0, 0); symtable[$2].var_type = STRING; }
+        | VARINT ID                { $$ = mknode(VARINT, mkleaf(ID, $2, 0), 0, 0, 0); symtable[$2].var_type = INTEGER; }
+        ;
 
-expr : NUM 						{ $$ = mkleaf(NUM, $1);	}
-	 | ID  						{ $$ = mkleaf(ID, $1); }
-	 | ID '=' expr				{ $$ = mknode('=', mkleaf(ASGMNTID, $1), $3, 0, 0); }
+expr : NUM 						{ $$ = mkleaf(NUM, $1, 0);	}
+	 | ID  						{ $$ = mkleaf(ID, $1, 0); }
+     | STR                      { $$ = mkleaf(STR, 0, $1); }
+	 | ID '=' expr				{ $$ = mknode('=', mkleaf(ASGMNTID, $1, 0), $3, 0, 0); }
 	 | '(' expr ')'  			{ $$ = $2; }
 	 | expr '+' expr 			{ $$ = mknode('+', $1, $3, 0, 0); }
 	 | expr '-' expr 			{ $$ = mknode('-', $1, $3, 0, 0); }

@@ -42,7 +42,7 @@ node* optimizer(node* root)
 				//make it a simple linkage node and null all the pointers in this node
 				node_copy->node_type = ';';
 				node_copy->args[0] = node_copy->args[1] = node_copy->args[2] = node_copy->args[3] = 0;
-				break;
+                break;
 			}
 			else //this means the statement is always true, such as while(1)
 				break;
